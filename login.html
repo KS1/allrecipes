@@ -23,34 +23,26 @@
    
 
 <body>
-  <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <img src="images//9721038191595501126-32.png" alt="chef icon"><a class="navbar-brand" href="#">Chef Recipe</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span><div class="icons8-menu"></div></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#recipes">Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   
   
   
    <main>
   
-           
+    <form class="form login-form">
+      <div class="form-group">
+        <label for="email-login">email:</label>
+        <input class="form-input" type="text" id="email-login" />
+      </div>
+      <div class="form-group">
+        <label for="password-login">password:</label>
+        <input class="form-input" type="password" id="password-login" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-orange " type="submit">login</button>
+      </div>
+    </form>
+    
+    <script src="/js/login.js"></script>
    
     
    

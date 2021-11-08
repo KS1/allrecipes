@@ -233,6 +233,8 @@
 
   /* login page css*/
 
-  .login{
-    margin-top:14%;
+  .btn-secondary:hover{
+    background-color: orange;
+    color:black;
+    border:none;
   }

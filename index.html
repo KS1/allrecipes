@@ -137,29 +137,34 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+              <form class="form login-form">
+                <div class="form-group mb-3">
+                  <label for="email-login" class="col-form-label">Email:</label>
+                  <input class="form-control" type="text" id="email-login">
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
+                <div class="form-group mb-3">
+                  <label for="password-login" class="col-form-label" >Password:</label>
+                  <input class="form-control" type="password" id="password-login">
+                </div>        
               </form>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
+            <div class="modal-footer form-group">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sing Up</button>
+              <button type="submit" class="btn btn-orange">log In</button>
+              <div class="form-group">
+
+              </div>
             </div>
           </div>
         </div>
       </div>
    
+    <!-- login js -->
+    <script src="/js/login.js"></script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <!-- bootstrap js -->
@@ -167,4 +172,8 @@
 </body>
 
 </html>
+
+
+
+
 
