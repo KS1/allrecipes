@@ -42,7 +42,7 @@
     color: orange;
     font-size: 1.8em;
     font-weight: 400;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.08em;
     margin-right: 2em;
     margin-left: 0.5em;
   }
@@ -55,7 +55,7 @@
     margin-right: 0.8em;
     margin-bottom: 20px;
     text-decoration: none;
-    letter-spacing: 0.085em;
+    letter-spacing: 0.07em;
     justify-content: space-evenly;
   }
   
@@ -77,26 +77,32 @@
   
   /* Cards */
   .top-cards{
-    margin-top: 10%;
+    margin-top: 9%;
+    margin-bottom: 3%;
     justify-content: center;
     display: flex;
+  }
+  .small-cards{
+
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3%;
+
   }
 
-  .col {
-    display: flex;
-    justify-content: center;
-  }
 
   .btn-orange {
     background-color: orange;
     color: var(--white);
   }
+
   .card-text{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
   }
-  
+
+ 
   
 
  
@@ -111,7 +117,7 @@
 
   h2.fs-5 {
     color:orange;
-    letter-spacing: 0.085em;
+    letter-spacing: 0.065em;
   }
    
   .chef {

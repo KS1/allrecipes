@@ -11,6 +11,7 @@
         alt="chef icon">
     <!-- fontawesome css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <!-- Bootcstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- Google Font -->
@@ -33,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#recipes">Recipes</a>
@@ -49,58 +50,73 @@
   
   
   <main>
+    <!--Top cards -->
     <div class="container" id="recipes">
-        <div class="row">
+        <div class="row top-cards">
+          <div class="col-lg-6 col-sm-12 top-cards">
+            <div class="card mb-3">
+              <img src="https://www.seriouseats.com/thmb/BK6geI86FVCHp7xaz5zpywPVV6s=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190426-savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom-fontina9-3958db0a1dc5451582f6b0eb90bb9681.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Asparagus, Mushroom, Leek, and Cheese Galette</h5>
+                <p class="card-text">Easy to throw together, this springtime vegetable tart is loaded with tender fresh green produce and flavorful cheese.</p>
+                <span class="bywho">By Michael Harlan Turkell</span>
+                <br>
+                <a href="#" class="btn btn-orange mt-3">Recipe</a>
+              </div>
+            </div>
+            
+          </div>
           <div class="col-lg-6 col-sm-12 top-cards">
             <div class="card mb-3" >
-                <img src="https://www.seriouseats.com/thmb/MDt2QSXFUtRLdT9XUTvUFz1ntFc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180726-MHT-broiling-potato-haloumi-gratin-vicky-wasik-10-close-up-overhead-final-24416989f695448f8bcd5fe864032479.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lemony Potatoes With Halloumi Cheese</h5>
-                  <p class="card-text">No need to overheat your kitchen to get dinner on the table. These recipes come together quickly with the help of the broiler.</p>
-                   <a href="#" class="btn btn-orange">Recipe</a>
-                
-                </div>
+              <img src="https://www.seriouseats.com/thmb/MDt2QSXFUtRLdT9XUTvUFz1ntFc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180726-MHT-broiling-potato-haloumi-gratin-vicky-wasik-10-close-up-overhead-final-24416989f695448f8bcd5fe864032479.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lemony Potatoes With Halloumi Cheese</h5>
+                <p class="card-text">No need to overheat your kitchen to get dinner on the table. These recipes come together quickly with the help of the broiler.</p>
+                <span class="bywho">By Michael Harlan Turkell</span>
+                <br>
+                <a href="#" class="btn btn-orange mt-3">Recipe</a>
+              
               </div>
-          </div>
-          <div class="col-lg-5 col-sm-12 top-cards">
-            <div class="card mb-3">
-                <img src="https://www.seriouseats.com/thmb/BK6geI86FVCHp7xaz5zpywPVV6s=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190426-savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom-fontina9-3958db0a1dc5451582f6b0eb90bb9681.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Asparagus, Mushroom, Leek, and Cheese Galette</h5>
-                  <p class="card-text">Easy to throw together, this springtime vegetable tart is loaded with tender fresh green produce and flavorful cheese.</p>
-                  <a href="#" class="btn btn-orange">Recipe</a>
-                </div>
-              </div>
+            </div>
+            
           </div>
         </div>
+
+        <!-- Small cards -->
         <div class="row">
-          <div class="col">
-            <div class="card mb-3" style="width: 18rem;">
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
                 <img src="https://www.seriouseats.com/thmb/IT-Fsrm7zVJWuDpPuUPHo3Y4fNE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170825-artichokes-ala-romana-vicky-wasik-3-2-1073d669511d4679a251bc77a8bdf44b.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Carciofi alla Romana</h5>
                   <p class="card-text">Braised Roman-style artichokes are cooked gently in a mixture of white wine, olive oil, garlic, and herbs.</p>
-                   <a href="#" class="btn btn-orange">Recipe</a>
+                  <span class="bywho">By Michael Harlan Turkell</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
                 </div>
               </div>
           </div>
-          <div class="col">
-            <div class="card mb-3" style="width: 18rem;">
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
                 <img src="https://www.seriouseats.com/thmb/8-ETyfpkS_elFd22z3mX6DuMX4U=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__01__20180107-bivalve-recipes-roundup-10-10b5edbb2ee9469ab9ff21a3b2ca6143.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Grilled Oysters for Shellfish Lovers</h5>
                   <p class="card-text">The flavored butters don't overpower the oysters, but they do soften their flavor enough to make this a great dish for oyster novices.</p>
-                   <a href="#" class="btn btn-orange">Recipe</a>
+                  <span class="bywho">By Michael Harlan Turkell</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
                 </div>
               </div>
           </div>
-          <div class="col">
-            <div class="card mb-3" style="width: 18rem;">
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
                 <img src="https://www.seriouseats.com/thmb/U1Ha0PXbUEcTL8M3wYo-8DrmgFA=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__03__20190321-asparagus-miso-bearnaise-vicky-wasik-21-038cd7ef521a4bd087e9a7f77c5932a0.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Asparagus Goes Deluxe With Miso Béarnaise</h5>
                   <p class="card-text">For an updated and easy at-home take on a classic steakhouse side dish, cook asparagus hard and fast, and give foolproof béarnaise and umami boost.</p>
-                  <a href="#" class="btn btn-orange">Recipe</a>
+                  <span class="bywho">By Michael Harlan Turkell</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
                 </div>
               </div>
           </div>
@@ -117,10 +133,10 @@
           <div class="col-12">
             <img class="chef" src="images//9721038191595501126-32.png" alt="chef icon"><a href="#"><h2 class="fs-5">Chef Recipe</h2></a>
             <ul class="list-unstyled small text-muted">
-              <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:23px" class="fa list-item">&#xf0e0;</i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="font-size:30px"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/KS1/GameSurvey" target="_blank"><i class="fa fa-github list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
+              <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:20px" class="fa list-item">&#xf0e0;</i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="font-size:25px"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/KS1/GameSurvey" target="_blank"><i class="fa fa-github list-item" aria-hidden="true" style="font-size:25px"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:25px"></i></a></li>
               <li class="mb-2">Designed and built by Chef Recipe Team.</li>
               <li class="mb-2">© 2021 Chef Recipe Team. All Rights Reserved.</li>
               <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
@@ -137,24 +153,30 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form class="form login-form">
                 <div class="form-group mb-3">
-                  <label for="email-login" class="col-form-label">Email:</label>
+                  <label for="email-login" class="col-form-label">Email</label>
                   <input class="form-control" type="text" id="email-login">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="form-group mb-3">
-                  <label for="password-login" class="col-form-label" >Password:</label>
+                  <label for="password-login" class="col-form-label" >Password</label>
                   <input class="form-control" type="password" id="password-login">
+                  <div class="col-auto">
+                    <span id="passwordHelpInline" class="form-text">
+                      Must be 8-20 characters long.
+                    </span>
+                  </div>
                 </div>        
               </form>
             </div>
             <div class="modal-footer form-group">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sing Up</button>
-              <button type="submit" class="btn btn-orange">log In</button>
+              <button type="submit" class="btn btn-orange">Sign In</button>
               <div class="form-group">
 
               </div>
