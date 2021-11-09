@@ -31,7 +31,8 @@
   .navbar {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(246, 246, 246, 0.945);
+    background-color: rgba(246, 246, 246, 0.972);
+    box-shadow: 0 0 10px gray;
     position: fixed;
     width: 100%;
     z-index: 22;
@@ -83,7 +84,6 @@
     display: flex;
   }
   .small-cards{
-
     justify-content: center;
     display: flex;
     margin-bottom: 3%;
