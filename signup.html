@@ -33,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log Out</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#recipes">Recipes</a>
@@ -51,41 +51,43 @@
   <main>
     <div class="container form-top">
 
-      <div class="mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Dish Name</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carbonara">
-      </div>
-      <div class="mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Preparation & Cook Time</label>
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Select Total Time</option>
-          <option value="1">Less then 10 mins</option>
-          <option value="2">20 mins</option>
-          <option value="3">30 mins</option>
-          <option value="3">40 mins</option>
-        </select>
-      </div>
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Ingredients</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="1 (16 ounce)package spaghetti, 12 slices thick-cut, applewood-smoked bacon, 2 tablespoons olive oil,1 onion, 2 large cloves garlic"></textarea>
-      </div>
-     
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Directions</label><br>
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 1</label>
-        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 1">
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 2</label>
-        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 2">
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 3</label>
-        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 3">
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 4</label>
-        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 4">
-      </div>
+        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Max">
 
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Nutrition Facts</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="512 calories; protein 21.2g; carbohydrates 47.5g; fat 25.2g; cholesterol 127.5mg; sodium 431.2mg."></textarea>
       </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Biber">
+      </div>
+ 
+      <form class="form login-form">
+        <div class="form-group">
+          <label for="email-login" class="col-form-label">Email</label>
+          <input class="form-control" type="text" id="email-login" placeholder="name@example.com">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="password-login" class="col-form-label" >Password</label>
+          <input class="form-control" type="password" id="password-login" placeholder="Password">
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+              Must be 8-20 characters long.
+            </span>
+          </div>
+          <label for="password-login" class="col-form-label" >Re-enter Password</label>
+          <input class="form-control" type="password" id="password-login" placeholder="Password">
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+              Must be the same as pervious one.
+            </span>
+          </div>
+        </div>        
+      </form>
+      <button type="submit" class="btn btn-orange mt-3">Submit</button>
+    
+
+
 
     </div>
    
@@ -108,8 +110,8 @@
           <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
           <li class="list-inline-item"><a href="#" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a></li>
           <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
-          <li class="mb-2">Designed and built by Chef Recipe Team.</li>
-          <li class="mb-2">© 2021 Chef Recipe Team. All Rights Reserved.</li>
+          <li class="mb-2">Designed and built by Chef Recipes Team.</li>
+          <li class="mb-2">© 2021 Chef Recipes Team. All Rights Reserved.</li>
           <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
          
         </ul>

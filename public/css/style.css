@@ -258,3 +258,24 @@
     font-size: 14px;
     font-weight: 500;
   }
+
+  /* recipes page */
+  .img-center{
+    text-align: center;
+   
+  }
+
+  .recipe-image{
+    width:50%;
+    margin-top:12%;
+  }
+
+  .text-orange {
+    color:orange;
+    font-weight: 600;
+    margin-top:8%;
+  }
+
+  .mt-x {
+    margin-top:5%;
+  }
