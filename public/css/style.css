@@ -42,9 +42,9 @@
   .navbar-light .navbar-brand {
     color: orange;
     font-size: 1.8em;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.08em;
-    margin-right: 2em;
+    /* margin-right: 2em; */
     margin-left: 0.5em;
   }
   
@@ -58,6 +58,7 @@
     text-decoration: none;
     letter-spacing: 0.07em;
     justify-content: space-evenly;
+    margin-left:1.5em;
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
@@ -118,6 +119,7 @@
   h2.fs-5 {
     color:orange;
     letter-spacing: 0.065em;
+    font-weight: 600;
   }
    
   .chef {
