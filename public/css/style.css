@@ -246,3 +246,15 @@
     color:black;
     border:none;
   }
+
+  /* account page */
+  .form-top{
+    margin-top:10%;
+    width: 50%;
+    margin-bottom:3%;
+  }
+
+  .step{
+    font-size: 14px;
+    font-weight: 500;
+  }

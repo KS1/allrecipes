@@ -23,32 +23,77 @@
    
 
 <body>
-  
-  
-  
-   <main>
-  
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <img src="images//9721038191595501126-32.png" alt="chef icon"><a class="navbar-brand" href="#">Chef Recipes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span><div class="icons8-menu"></div></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log Out</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#recipes">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
+    </div>
+  </nav>
+  
+  
+  
+  <main>
+    <div class="container form-top">
+
+      <div class="mb-3 ">
+        <label for="exampleFormControlInput1" class="form-label">Dish Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carbonara">
       </div>
-      <div class="form-group">
-        <button class="btn btn-orange " type="submit">login</button>
+      <div class="mb-3 ">
+        <label for="exampleFormControlInput1" class="form-label">Preparation & Cook Time</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select Total Time</option>
+          <option value="1">Less then 10 mins</option>
+          <option value="2">20 mins</option>
+          <option value="3">30 mins</option>
+          <option value="3">40 mins</option>
+        </select>
       </div>
-    </form>
-    
-    <script src="/js/login.js"></script>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Ingredients</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="1 (16 ounce)package spaghetti, 12 slices thick-cut, applewood-smoked bacon, 2 tablespoons olive oil,1 onion, 2 large cloves garlic"></textarea>
+      </div>
+     
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Directions</label><br>
+        <label for="exampleFormControlTextarea1" class="form-label step">Step 1</label>
+        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 1">
+        <label for="exampleFormControlTextarea1" class="form-label step">Step 2</label>
+        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 2">
+        <label for="exampleFormControlTextarea1" class="form-label step">Step 3</label>
+        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 3">
+        <label for="exampleFormControlTextarea1" class="form-label step">Step 4</label>
+        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Step 4">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Nutrition Facts</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="512 calories; protein 21.2g; carbohydrates 47.5g; fat 25.2g; cholesterol 127.5mg; sodium 431.2mg."></textarea>
+      </div>
+
+    </div>
    
     
    
      
 
-    </main>
+  </main>
 
   
   
@@ -57,12 +102,12 @@
   <div class="container py-5">
     <div class="row" id="contact">
       <div class="col-12">
-        <img class="chef" src="images//9721038191595501126-32.png" alt="chef icon"><a href="#"><h2 class="fs-5">Chef Recipe</h2></a>
+        <img class="chef" src="images//9721038191595501126-32.png" alt="chef icon"><a href="#"><h2 class="fs-5">Chef Recipes</h2></a>
         <ul class="list-unstyled small text-muted">
-          <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:23px" class="fa list-item">&#xf0e0;</i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px"></i></a></li>
-          <li class="list-inline-item"><a href="https://github.com/KS1/GameSurvey" target="_blank"><i class="fa fa-github list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
+          <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:20px" class="fa list-item">&#xf0e0;</i></a></li>
+          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
+          <li class="list-inline-item"><a href="#" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
           <li class="mb-2">Designed and built by Chef Recipe Team.</li>
           <li class="mb-2">© 2021 Chef Recipe Team. All Rights Reserved.</li>
           <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
