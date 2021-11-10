@@ -22,6 +22,12 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
+router.get('/:id', (req, res) => {
+  //get recipe by its id
+  res.render("recipe", {
+    directions: ["A", "B", "C", "S"]
+  })
+})
 router.get('/login', (req, res) => {
   // If a session exists, redirect the request to the homepage
   if (req.session.logged_in) {
