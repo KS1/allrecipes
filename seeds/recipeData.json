@@ -1,0 +1,27 @@
+[
+    {
+      "dish": "Sal",
+      "ingredients": ["pork", "egg"],
+      "directions": ["step1", "step2", "step3", "step4"],
+      "nutrition_facts":"good for you"
+    },
+    {
+        "dish": "Sal2",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "dish": "Sal3",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "dish": "Sal4",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      }
+    
+  ]
