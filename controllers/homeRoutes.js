@@ -28,6 +28,7 @@ router.get('/:id', (req, res) => {
     directions: ["A", "B", "C", "S"]
   })
 })
+
 router.get('/login', (req, res) => {
   // If a session exists, redirect the request to the homepage
   if (req.session.logged_in) {
