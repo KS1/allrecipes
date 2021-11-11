@@ -69,7 +69,6 @@ li.nav-item {
   margin-left: 0%;
 }
 
-
 .plus-btn {
   color: orange;
   font-size: 1.25em;
@@ -138,6 +137,7 @@ li.nav-item {
   color: var(--white);
 }
 
+
 .card-text,
 .card-title {
   text-overflow: ellipsis;
@@ -192,6 +192,7 @@ h5 {
 .list-inline-item a:hover {
   color: orange;
 }
+
 
 /* Mobile Responsive */
 
