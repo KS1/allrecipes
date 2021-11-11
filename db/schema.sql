@@ -21,8 +21,6 @@ CREATE TABLE user (
 
 CREATE TABLE user_recipe (
     userRecipeId INT(10) NOT NULL,
-    category VARCHAR(255),
-    CONSTRAINT `user_recipe_1`
-        FOREIGN KEY (`userID`)
-        REFERENCES `users` (`userID`)
+    FOREIGN KEY (`userID`)
+    REFERENCES `users` (`userID`)
 )
