@@ -3,7 +3,9 @@ const { User } = require('../models');
 
 const userData = require('./userData.json');
 const recipeData = require('./recipeData.json');
+
 const userRecipeData = require('./userRecipeData.json');
+
 
 
 const seedDatabase = async () => {

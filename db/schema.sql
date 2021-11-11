@@ -1,5 +1,6 @@
 DROP DATABASE IF EXISTS recipe_db;
 CREATE DATABASE recipe_db;
+
 CREATE TABLE recipe (
     recipe_id INT(10) NOT NULL AUTO_INCREMENT,
     dishName VARCHAR(255) NOT NULL, 
