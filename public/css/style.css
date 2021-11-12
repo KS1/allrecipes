@@ -21,6 +21,10 @@ main {
   display: flex;
 }
 
+.mt-main {
+  margin-top: 15%;
+}
+
 /* Navbar */
 .collapse.navbar-collapse {
   margin-top: 2%;
@@ -30,9 +34,10 @@ main {
   justify-content: space-evenly;
   background-color: rgba(246, 246, 246, 0.972);
   box-shadow: 0 0 10px gray;
-  position: inherit;
+  position: fixed;
   width: 100%;
   z-index: 22;
+  top: 0px;
 }
 
 .navbar-light .navbar-brand {
