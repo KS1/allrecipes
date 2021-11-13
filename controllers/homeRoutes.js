@@ -39,4 +39,43 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+// GET all galleries for homepage
+router.get('/', async (req, res) => {
+  try {
+    const dbGalleryData = await Gallery.findAll({
+      include: [
+        {
+          model: Painting,
+          attributes: ['filename', 'description'],
+        },
+      ],
+    });
+
+    const galleries = dbGalleryData.map((gallery) =>
+      gallery.get({ plain: true })
+    );
+
+    res.render('homepage', {
+      galleries,
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
+// GET one painting
+router.get('/painting/:id', async (req, res) => {
+  try {
+    const dbPaintingData = await Painting.findByPk(req.params.id);
+
+    const painting = dbPaintingData.get({ plain: true });
+
+    res.render('painting', { painting });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;
