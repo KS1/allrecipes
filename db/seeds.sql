@@ -1,3 +1,4 @@
+
 -- shell : (000, "", "", "", "", "", "", ""),
 INSERT INTO  recipe (id, dishName, chef, prepTime, nutrition_facts, dishDesc, ingredients, directions)
 
@@ -623,3 +624,4 @@ Dip warm rabanadas in cinnamon-sugar to coat all sides. Serve warm or at room te
 3/4 cup frozen peas, thawed", 
 "In a large skillet, saute the chicken, ham, onion and red pepper in 2 teaspoons oil until chicken is browned on all sides. Remove with a slotted spoon.
 In the same skillet, saute rice in remaining 1 teaspoon oil until lightly browned. Stir in the turmeric, cumin, garlic and salt. Return meat and vegetables to pan; toss lightly. Add broth; bring to a boil. Reduce heat to medium; cover and simmer until rice is tender, 30-35 minutes. Stir in peas."),
+
