@@ -21,17 +21,19 @@ Recipe.init(
       allowNull: false,
     },
     ingredients: {
+
       type: DataTypes.ARRAY(DataTypes.STRING),
+
       allowNull: false,
       unique: true,
-      
+
     },
     directions: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
 
     },
-    nutrition_facts:{
+    nutrition_facts: {
       type: DataTypes.STRING,
       allowNull: false,
     }
