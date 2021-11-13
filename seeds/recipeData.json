@@ -1,27 +1,223 @@
 [
     {
-      "dish": "Sal",
-      "ingredients": ["pork", "egg"],
-      "directions": ["step1", "step2", "step3", "step4"],
-      "nutrition_facts":"good for you"
+
+      "recipeID": "001",
+      "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
+      "chef": "Daniel Gritzer",
+      "prepTime": "45min",
+      "nutrition_facts":"good for you",
+      "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
+      "ingredients": ["1/2 batch Old-Fashioned Flaky Pie Dough", "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling", "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick", "Kosher salt", "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved", "1 teaspoon minced fresh thyme leaves", "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons"],
+      "directions": ["step1", "step2", "step3", "step4", "C" ]
+      
     },
     {
+        "recipeID": "002",
+
         "dish": "Sal2",
         "ingredients": ["pork", "egg"],
         "directions": ["step1", "step2", "step3", "step4"],
         "nutrition_facts":"good for you"
       },
       {
+
+        "recipeID": "003",
         "dish": "Sal3",
         "ingredients": ["pork", "egg"],
         "directions": ["step1", "step2", "step3", "step4"],
         "nutrition_facts":"good for you"
       },
       {
+
+        "recipeID": "004",
         "dish": "Sal4",
         "ingredients": ["pork", "egg"],
         "directions": ["step1", "step2", "step3", "step4"],
         "nutrition_facts":"good for you"
+
+      },
+      {
+        "recipeID": "005",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "006",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "007",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "008",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "009",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "010",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "011",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "012",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "013",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "014",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "015",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "016",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "017",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "018",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "019",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "020",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "021",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "022",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "023",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "024",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "025",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "026",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "027",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "028",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "029",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+        "recipeID": "030",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+
       }
     
   ]
