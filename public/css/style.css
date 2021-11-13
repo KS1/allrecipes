@@ -142,7 +142,6 @@ li.nav-item {
   color: var(--white);
 }
 
-
 .card-text,
 .card-title {
   text-overflow: ellipsis;
@@ -197,7 +196,6 @@ h5 {
 .list-inline-item a:hover {
   color: orange;
 }
-
 
 /* Mobile Responsive */
 
