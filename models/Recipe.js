@@ -10,7 +10,7 @@ class Recipe extends Model {
 
 Recipe.init(
   {
-    id: {
+    recipeID: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -21,13 +21,13 @@ Recipe.init(
       allowNull: false,
     },
     ingredients: {
-      type: DataTypes.ARRAY,
+      type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
       unique: true,
       
     },
     directions: {
-      type: DataTypes.ARRAY,
+      type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
 
     },
