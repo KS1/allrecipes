@@ -10,20 +10,29 @@ class Recipe extends Model {
 
 Recipe.init(
   {
-    recipeID: {
+    recipe_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
+
     dish: {
       type: DataTypes.STRING,
       allowNull: false,
     },
+
+    description: {
+      type: DataTypes.STRING,
+    },
+ 
+    cook_time: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+
     ingredients: {
-
       type: DataTypes.ARRAY(DataTypes.STRING),
-
       allowNull: false,
       unique: true,
 
@@ -36,7 +45,19 @@ Recipe.init(
     nutrition_facts: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    user_id:{
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'user_id',
+      },
     }
+
     // image_id: {
     //     type: DataTypes.INTEGER,
     //     references: {

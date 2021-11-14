@@ -1,28 +1,47 @@
-<div class="container-fluid img-center" id="recipes">
-      <img class="recipe-image" src="images/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__03__20190321-asparagus-miso-bearnaise-vicky-wasik-21-038cd7ef521a4bd087e9a7f77c5932a0.webp" class="img-fluid" alt="...">
+<!-- a recipe page -->
+
+<div class="container-fluid img-center" id="recipes"> <div class="container-fluid img-center" id="recipes">
+      <img class="recipe-image" src="images/artichokes-ala-romana.webp" class="img-fluid" alt="...">
       <div>
-        <h3 class="text-orange">Asparagus Goes With Miso Béarnaise</h3>
-        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <h3 class="text-orange">{{recipe.dish}}</h3>
+        <p class="text-center mt-3">{{recipe.description}}</p>
       </div>
       <div>
         <h4 class="mt-x">Preparation & Cook Time</h4>
-        <p class="text-center">20 mins</p>
+        <p class="text-center mt-3">{{recipe.cook_time}}</p>
       </div>
       <div>
         <h4 class="mt-x">Ingredients</h4>
-        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <p class="text-left mt-3">{{recipe.ingredients}}</p>
       </div>
       <div>
         <h4 class="mt-x">Directions</h4>
-        <p class="text-center">Center aligned text on all viewport sizes.</p>
-        {{#each directions as |direction| }}
-        <h5>{{direction}}</h5>
-        {{/each}}
+        <table class="table table-border mt-3">
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Fill a large bowl with water; halve and squeeze 2 lemons into it. Trim artichokes by cleaning them down to the hearts, following the guidelines shown here: Using a serrated knife, cut off top of artichoke and bottommost part of stem. Using a paring knife or sharp vegetable peeler, trim away the tough outer leaves to expose the tender inner leaves and heart. Trim away fibrous outer layer around stem to expose tender inner core (if stem breaks off, that's okay; just save it and cook it alongside the hearts). Using a spoon, scrape out the inedible, hairy choke in the center of each heart. Transfer cleaned artichokes to bowl of lemon water as you work, covering them with a clean kitchen towel to keep them completely submerged.</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>In a small bowl, stir together parsley, mint, oregano, and garlic. Rub concave side of each artichoke heart with herb mixture, packing it into any leafy crevices. Set aside remaining herb mixture.</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Add olive oil and wine to a pot just large enough to hold all the artichokes closely side by side, so that they can sit flat with their stem sides up. Arrange artichokes in pot and season with salt and pepper.</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Bring pot to a simmer over medium-high heat, then lower heat to a bare simmer, cover, and cook until artichokes are fork-tender, 20 to 30 minutes. (Smaller artichokes may not take as long.)Remove from heat and transfer artichokes to a platter, stem sides up. Drizzle with cooking juices, along with some fresh olive oil and a light sprinkling of reserved herb mixture. Serve warm or at room temperature.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div>
         <h4 class="mt-x">Nutrition Facts</h4>
-        <p class="text-center mb-5">Center aligned text on all viewport sizes.</p>
+        <p class="text-center mt-3 mb-5">{{recipe.nutrition_facts}}</p>
       </div>
+      
     
       
     </div>
