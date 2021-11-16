@@ -1,6 +1,7 @@
 [
   {
 
+
     "user_id": "1",
     "name": "Sal",
     "email": "sal@hotmail.com",
@@ -8,12 +9,15 @@
   },
   {
 
+
     "user_id": "2",
+
     "name": "Lernantino",
     "email": "lernantino@gmail.com",
     "password": "password12345"
   },
   {
+
 
     "user_id": "3",
     "name": "Amiko",
@@ -22,12 +26,14 @@
   },
   {
 
+
     "user_id": "4",
     "name": "Jordan",
     "email": "jordan99@msn.com",
     "password": "password12345"
   },
   {
+
 
     "user_id": "5",
     "name": "Blake",

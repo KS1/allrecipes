@@ -10,7 +10,9 @@ class Recipe extends Model {
 
 Recipe.init(
   {
+
     recipe_id: {
+
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -22,12 +24,14 @@ Recipe.init(
       allowNull: false,
     },
 
+
     description: {
       type: DataTypes.STRING,
     },
  
     cook_time: {
       type: DataTypes.STRING,
+
       allowNull: false,
     },
 

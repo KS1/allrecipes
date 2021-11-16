@@ -92,7 +92,9 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: Painting,
+
           attributes: ['dishPic', 'description'],
+
         },
       ],
     });
