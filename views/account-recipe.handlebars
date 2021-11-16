@@ -5,12 +5,12 @@
               <div class="card">
                   <img src="https://www.seriouseats.com/thmb/IT-Fsrm7zVJWuDpPuUPHo3Y4fNE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170825-artichokes-ala-romana-vicky-wasik-3-2-1073d669511d4679a251bc77a8bdf44b.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Carciofi alla Romana</h5>
-                    <p class="card-text">Braised Roman-style artichokes are cooked gently in a mixture of white wine, olive oil, garlic, and herbs.</p>
-                    <span class="bywho">By Michael Harlan Turkell</span>
+                    <h5 class="card-title">{{recipe.dish}}</h5>
+                    <p class="card-text">{{recipe.dishDesc}}</p>
+                    <span class="bywho">{{recipe.chef}}</span>
                     <br>
                     <div class="hstack">
-                        <a href="#" class="btn btn-orange mt-3">Recipe</a>            
+                        <a href="/api/{{recipe_id}}" class="btn btn-orange mt-3">Recipe</a>            
                         <div class="ms-auto"><i class="fa fa-trash-o" style="font-size:35px;"></i></div>
                     </div>
                 </div>
