@@ -1,27 +1,28 @@
 [
     {
-      "userID": "1",
-      "recipeID": "1"
+
+      "user_id": "1",
+      "recipe_id": "1"
 
     },
     {
-        "userID": "2",
-        "recipeID": "2"
+        "user_id": "2",
+        "recipe_id": "2"
   
       },
       {
-        "userID": "3",
-        "recipeID": "3"
+        "user_id": "3",
+        "recipe_id": "3"
   
       },
       {
-        "userID": "4",
-        "recipeID": "4"
+        "user_id": "4",
+        "recipe_id": "4"
   
       },
       {
-        "userID": "5",
-        "recipeID": "5"
+        "user_id": "5",
+        "recipe_id": "5"
   
       }
     

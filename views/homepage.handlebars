@@ -1,10 +1,72 @@
-{{#each users as |user| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} {{user.name}}</h2>
-  </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:{{user.email}}">{{user.email}}</a></h3>
-  </div>
-</div>
-{{/each}}
+<!--Top cards -->
+    <div class="container-fluid" id="recipes">
+        <div class="row top-cards">
+          <div class="col-lg-6 col-sm-12 top-cards">
+            <div class="card mb-3">
+              <img src="https://www.seriouseats.com/thmb/BK6geI86FVCHp7xaz5zpywPVV6s=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190426-savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom-fontina9-3958db0a1dc5451582f6b0eb90bb9681.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{recipe.dish}}</h5>
+                <p class="card-text">{{recipe.description}}</p>
+                <span class="bywho">{{user.name}}</span>
+                <br>
+                <a href="#" class="btn btn-orange mt-3">Recipe</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-sm-12 top-cards">
+            <div class="card mb-3" >
+              <img src="https://www.seriouseats.com/thmb/MDt2QSXFUtRLdT9XUTvUFz1ntFc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180726-MHT-broiling-potato-haloumi-gratin-vicky-wasik-10-close-up-overhead-final-24416989f695448f8bcd5fe864032479.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">{{recipe.dish}}</h5>
+                <p class="card-text">{{recipe.description}}</p>
+                <span class="bywho">{{user.name}}</span>
+                <br>
+                <a href="#" class="btn btn-orange mt-3">Recipe</a>
+              
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Small cards -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
+                <img src="https://www.seriouseats.com/thmb/IT-Fsrm7zVJWuDpPuUPHo3Y4fNE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170825-artichokes-ala-romana-vicky-wasik-3-2-1073d669511d4679a251bc77a8bdf44b.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{recipe.dish}}</h5>
+                    <p class="card-text">{{recipe.description}}</p>
+                    <span class="bywho">{{user.name}}</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
+                <img src="https://www.seriouseats.com/thmb/8-ETyfpkS_elFd22z3mX6DuMX4U=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__01__20180107-bivalve-recipes-roundup-10-10b5edbb2ee9469ab9ff21a3b2ca6143.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{recipe.dish}}</h5>
+                    <p class="card-text">{{recipe.description}}</p>
+                    <span class="bywho">{{user.name}}</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 small-cards">
+            <div class="card">
+                <img src="https://www.seriouseats.com/thmb/U1Ha0PXbUEcTL8M3wYo-8DrmgFA=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__03__20190321-asparagus-miso-bearnaise-vicky-wasik-21-038cd7ef521a4bd087e9a7f77c5932a0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{recipe.dish}}</h5>
+                    <p class="card-text">{{recipe.description}}</p>
+                    <span class="bywho">{{user.name}}</span>
+                  <br>
+                  <a href="#" class="btn btn-orange mt-3">Recipe</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
