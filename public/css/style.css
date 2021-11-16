@@ -309,6 +309,16 @@ h5 {
   margin-top: 5%;
 }
 
+.text-left{
+  text-align: left;
+}
+
+.table-border{
+  border: transparent;
+}
+td{
+  text-align: left;
+}
 /* account-recipe page */
 .ms-auto {
   color: var(--gray);

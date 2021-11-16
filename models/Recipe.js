@@ -16,6 +16,7 @@ Recipe.init(
       primaryKey: true,
       autoIncrement: true,
     },
+
     dish: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -42,6 +43,7 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+
     ingredients: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
@@ -51,8 +53,8 @@ Recipe.init(
     directions: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
-
     }
+
   },
   
   {

@@ -1,6 +1,5 @@
 [
   {
-
     "recipe_id": "001",
     "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
     "dishPic": "",
@@ -10,6 +9,58 @@
     "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
     "ingredients": ["1/2 batch Old-Fashioned Flaky Pie Dough", "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling", "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick", "Kosher salt", "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved", "1 teaspoon minced fresh thyme leaves", "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons", "2 ounces (55g) grated Fontina cheese", "1 large egg, beaten"],
     "directions": ["Prepare Old-Fashioned Flaky Pie Dough according to the recipe. After rolling, folding, and dividing dough in half, roll one portion into a 14-inch round. Transfer to a parchment-lined aluminum rimmed baking sheet, cover with plastic, and refrigerate to relax and chill dough, at least 2 hours or up to 24.", "In a large sauté pan or cast iron skillet, heat 4 tablespoons (60ml) olive oil over medium-high heat until shimmering. Add mushrooms and cook, stirring occasionally, until browned, about 6 minutes.", "Stir in asparagus stalks, thyme, and the remaining 1 tablespoon (15ml) olive oil. Lower heat to medium and cook, tossing and stirring, until asparagus is tender, about 8 minutes. Add 3 tablespoons (45ml) water to skillet, scraping up browned bits from bottom of pan. Season with salt and remove from heat.", "Meanwhile, in a large saucepan, melt butter over medium heat until foaming. Add leeks and cook, stirring, until very soft, about 8 minutes. Lower heat if necessary to prevent browning. Season with salt.", "Add the leeks to the asparagus mixture along with the cheese and stir to combine.", "Adjust oven rack to lower-middle position and preheat to 400°F. Spread asparagus-leek mixture on prepared dough round, leaving about a 2-inch border of dough all around. With a sharp knife, cut a series of slits in the border of dough, each running from filling to edge of dough, spacing them about 5 inches apart. Fold each segment of dough over filling, tugging gently so the edge of each segment tightly overlaps the one that came before. Chill galette for 10 minutes in the refrigerator.", "In a small bowl, drizzle reserved asparagus tips with olive oil, season with salt, and toss to coat lightly and evenly. Arrange asparagus tips on top of exposed filling in center of the galette.", "Brush egg over chilled dough in a thin, even layer (including under each flap). This will give the crust a glossy, golden sheen and help bind the pieces together.", "Bake until galette is golden brown around the edges and bubbling in the center, about 45 minutes longer. Let cool 5 minutes, then slice into wedges and serve warm." ]
+    {
+
+
+      "recipe_id:": "001",
+      "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
+      "description": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
+      "chef": "Daniel Gritzer",
+      "prepTime": "45min",
+      "ingredients": ["1/2 batch Old-Fashioned Flaky Pie Dough", "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling", "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick", "Kosher salt", "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved", "1 teaspoon minced fresh thyme leaves", "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons"],
+      "directions": ["step1", "step2", "step3", "step4", "C" ],
+      "filename":"grilled-oysters.webp",
+      "nutrition_facts":"good for you"
+
+      
+    },
+    {
+        "recipe_id": "002",
+        "dish": "Sal2",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+
+
+        "recipe_id": "003",
+        "dish": "Sal3",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+      },
+      {
+
+
+        "recipe_id": "004",
+        "dish": "Sal4",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+
+      },
+      {
+
+        "recipe_id": "005",
+        "dish": "Sal5",
+        "ingredients": ["pork", "egg"],
+        "directions": ["step1", "step2", "step3", "step4"],
+        "nutrition_facts":"good for you"
+
+
+      }
+
     
   },
 
