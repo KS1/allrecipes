@@ -5,32 +5,12 @@
     "dishPic": "",
     "chef": "Daniel Gritzer",
     "prepTime": "30 min.",
-    "nutrition_facts": "268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
+    "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
     "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
-    "ingredients": [
-      "1/2 batch Old-Fashioned Flaky Pie Dough",
-      "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling",
-      "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick",
-      "Kosher salt",
-      "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved",
-      "1 teaspoon minced fresh thyme leaves",
-      "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons",
-      "2 ounces (55g) grated Fontina cheese",
-      "1 large egg, beaten"
-    ],
-    "directions": [
-      "Prepare Old-Fashioned Flaky Pie Dough according to the recipe. After rolling, folding, and dividing dough in half, roll one portion into a 14-inch round. Transfer to a parchment-lined aluminum rimmed baking sheet, cover with plastic, and refrigerate to relax and chill dough, at least 2 hours or up to 24.",
-      "In a large sauté pan or cast iron skillet, heat 4 tablespoons (60ml) olive oil over medium-high heat until shimmering. Add mushrooms and cook, stirring occasionally, until browned, about 6 minutes.",
-      "Stir in asparagus stalks, thyme, and the remaining 1 tablespoon (15ml) olive oil. Lower heat to medium and cook, tossing and stirring, until asparagus is tender, about 8 minutes. Add 3 tablespoons (45ml) water to skillet, scraping up browned bits from bottom of pan. Season with salt and remove from heat.",
-      "Meanwhile, in a large saucepan, melt butter over medium heat until foaming. Add leeks and cook, stirring, until very soft, about 8 minutes. Lower heat if necessary to prevent browning. Season with salt.",
-      "Add the leeks to the asparagus mixture along with the cheese and stir to combine.",
-      "Adjust oven rack to lower-middle position and preheat to 400°F. Spread asparagus-leek mixture on prepared dough round, leaving about a 2-inch border of dough all around. With a sharp knife, cut a series of slits in the border of dough, each running from filling to edge of dough, spacing them about 5 inches apart. Fold each segment of dough over filling, tugging gently so the edge of each segment tightly overlaps the one that came before. Chill galette for 10 minutes in the refrigerator.",
-      "In a small bowl, drizzle reserved asparagus tips with olive oil, season with salt, and toss to coat lightly and evenly. Arrange asparagus tips on top of exposed filling in center of the galette.",
-      "Brush egg over chilled dough in a thin, even layer (including under each flap). This will give the crust a glossy, golden sheen and help bind the pieces together.",
-      "Bake until galette is golden brown around the edges and bubbling in the center, about 45 minutes longer. Let cool 5 minutes, then slice into wedges and serve warm."
-    ]
-  },
-  {
+    "ingredients": ["1/2 batch Old-Fashioned Flaky Pie Dough", "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling", "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick", "Kosher salt", "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved", "1 teaspoon minced fresh thyme leaves", "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons", "2 ounces (55g) grated Fontina cheese", "1 large egg, beaten"],
+    "directions": ["Prepare Old-Fashioned Flaky Pie Dough according to the recipe. After rolling, folding, and dividing dough in half, roll one portion into a 14-inch round. Transfer to a parchment-lined aluminum rimmed baking sheet, cover with plastic, and refrigerate to relax and chill dough, at least 2 hours or up to 24.", "In a large sauté pan or cast iron skillet, heat 4 tablespoons (60ml) olive oil over medium-high heat until shimmering. Add mushrooms and cook, stirring occasionally, until browned, about 6 minutes.", "Stir in asparagus stalks, thyme, and the remaining 1 tablespoon (15ml) olive oil. Lower heat to medium and cook, tossing and stirring, until asparagus is tender, about 8 minutes. Add 3 tablespoons (45ml) water to skillet, scraping up browned bits from bottom of pan. Season with salt and remove from heat.", "Meanwhile, in a large saucepan, melt butter over medium heat until foaming. Add leeks and cook, stirring, until very soft, about 8 minutes. Lower heat if necessary to prevent browning. Season with salt.", "Add the leeks to the asparagus mixture along with the cheese and stir to combine.", "Adjust oven rack to lower-middle position and preheat to 400°F. Spread asparagus-leek mixture on prepared dough round, leaving about a 2-inch border of dough all around. With a sharp knife, cut a series of slits in the border of dough, each running from filling to edge of dough, spacing them about 5 inches apart. Fold each segment of dough over filling, tugging gently so the edge of each segment tightly overlaps the one that came before. Chill galette for 10 minutes in the refrigerator.", "In a small bowl, drizzle reserved asparagus tips with olive oil, season with salt, and toss to coat lightly and evenly. Arrange asparagus tips on top of exposed filling in center of the galette.", "Brush egg over chilled dough in a thin, even layer (including under each flap). This will give the crust a glossy, golden sheen and help bind the pieces together.", "Bake until galette is golden brown around the edges and bubbling in the center, about 45 minutes longer. Let cool 5 minutes, then slice into wedges and serve warm." ] 
+    },
+    {
     "recipe_id": "002",
     "dish": "Lemony Broiled Potatoes With Halloumi Cheese",
     "dishPic": "",
@@ -38,23 +18,10 @@
     "prepTime": "Cook: 30 min.",
     "nutrition_facts": "89 calories, 1g fat (0 saturated fat), 0 cholesterol, 149mg sodium, 17g carbohydrate (3g sugars, 1g fiber), 2g protein. Diabetic Exchanges: 1 starch.",
     "dishDesc": "Browned on top, creamy on bottom, and bright with lemon, these broiled potatoes topped off with melty halloumi cheese combine the best of roast potatoes and gratin.",
-    "ingredients": [
-      "2 tablespoons (30ml) extra-virgin olive oil",
-      "1 pound (450g) Yukon Gold potatoes, sliced 1/8 inch thick",
-      "Kosher or sea salt",
-      "Freshly ground black pepper",
-      "1/4 cup (60ml) fresh lemon juice, from about 1 lemon, plus zest of 1 lemon",
-      "8 ounces (225g) halloumi cheese, thinly sliced",
-      "2 teaspoons dried oregano"
-    ],
-    "directions": [
-      "Preheat broiler and set top oven rack about 6 inches from broiler element. Add olive oil to a 12-inch cast iron skillet and spread evenly all over.",
-      "Add potatoes, shingling the slices around the pan in a single circular layer. Season with salt and pepper.",
-      "Broil until the potatoes have puffed up slightly, mostly cooked through, and browned on top, about 7 minutes.",
-      "Pour lemon juice all over potatoes and sprinkle zest on top.",
-      "Add halloumi cheese in an even layer on top and broil until cheese is golden brown all over and potatoes are fully cooked through, about 4 minutes.Sprinkle oregano on top and serve."
-    ]
+    "ingredients": ["2 tablespoons (30ml) extra-virgin olive oil", "1 pound (450g) Yukon Gold potatoes, sliced 1/8 inch thick", "Kosher or sea salt", "Freshly ground black pepper", "1/4 cup (60ml) fresh lemon juice, from about 1 lemon, plus zest of 1 lemon", "8 ounces (225g) halloumi cheese, thinly sliced", "2 teaspoons dried oregano"],
+    "directions": ["Preheat broiler and set top oven rack about 6 inches from broiler element. Add olive oil to a 12-inch cast iron skillet and spread evenly all over.", "Add potatoes, shingling the slices around the pan in a single circular layer. Season with salt and pepper.", "Broil until the potatoes have puffed up slightly, mostly cooked through, and browned on top, about 7 minutes.", "Pour lemon juice all over potatoes and sprinkle zest on top.", "Add halloumi cheese in an even layer on top and broil until cheese is golden brown all over and potatoes are fully cooked through, about 4 minutes.Sprinkle oregano on top and serve."]
   },
+
   {
     "recipe_id": "003",
     "dish": "Carciofi alla Romana: The Other Delicious Roman Artichoke Dish",
@@ -63,25 +30,9 @@
     "prepTime": "Cook: 30 min",
     "nutrition_facts": " 130 calories, 4g fat (1g saturated fat), 25mg cholesterol, 111mg sodium, 21g carbohydrate (10g sugars, 1g fiber), 3g protein.",
     "dishDesc": "There are many reasons not to cook artichokes out of season, the least obvious of which is that they can spontaneously combust. I'm not joking. I was trimming some leathery artichokes a few months ago, in the middle of summer, and they began to catch fire from the friction of the blade as I sliced through the dry, woody leaves. You can see proof of it on this Twitter thread.",
-    "ingredients": [
-      "2 whole lemons (for maintaining artichokes' color)",
-      "4 large or 12 small artichokes (2 pounds; 1kg)",
-      "1/4 cup (7g) minced flat-leaf parsley leaves",
-      "2 tablespoons minced fresh mint leaves",
-      "2 tablespoons minced fresh oregano leaves",
-      "3 medium cloves garlic, minced",
-      "1/4 cup (60ml) extra-virgin olive oil, plus more for drizzling",
-      "1/4 cup (60ml) dry white wine",
-      "Kosher salt and freshly ground black pepper"
-    ],
-    "directions": [
-      "Fill a large bowl with water; halve and squeeze 2 lemons into it. Trim artichokes by cleaning them down to the hearts, following the guidelines shown here: Using a serrated knife, cut off top of artichoke and bottommost part of stem. Using a paring knife or sharp vegetable peeler, trim away the tough outer leaves to expose the tender inner leaves and heart. Trim away fibrous outer layer around stem to expose tender inner core (if stem breaks off, that's okay; just save it and cook it alongside the hearts). Using a spoon, scrape out the inedible, hairy choke in the center of each heart. Transfer cleaned artichokes to bowl of lemon water as you work, covering them with a clean kitchen towel to keep them completely submerged.",
-      "In a small bowl, stir together parsley, mint, oregano, and garlic. Rub concave side of each artichoke heart with herb mixture, packing it into any leafy crevices. Set aside remaining herb mixture.",
-      "Add olive oil and wine to a pot just large enough to hold all the artichokes closely side by side, so that they can sit flat with their stem sides up. Arrange artichokes in pot and season with salt and pepper.",
-      "Bring pot to a simmer over medium-high heat, then lower heat to a bare simmer, cover, and cook until artichokes are fork-tender, 20 to 30 minutes. (Smaller artichokes may not take as long.)",
-      "Remove from heat and transfer artichokes to a platter, stem sides up. Drizzle with cooking juices, along with some fresh olive oil and a light sprinkling of reserved herb mixture. Serve warm or at room temperature."
-    ]
-  },
+    "ingredients": ["2 whole lemons (for maintaining artichokes' color)", "4 large or 12 small artichokes (2 pounds; 1kg)", "1/4 cup (7g) minced flat-leaf parsley leaves", "2 tablespoons minced fresh mint leaves", "2 tablespoons minced fresh oregano leaves", "3 medium cloves garlic, minced", "1/4 cup (60ml) extra-virgin olive oil, plus more for drizzling", "1/4 cup (60ml) dry white wine", "Kosher salt and freshly ground black pepper"],
+    "directions": ["Fill a large bowl with water; halve and squeeze 2 lemons into it. Trim artichokes by cleaning them down to the hearts, following the guidelines shown here: Using a serrated knife, cut off top of artichoke and bottommost part of stem. Using a paring knife or sharp vegetable peeler, trim away the tough outer leaves to expose the tender inner leaves and heart. Trim away fibrous outer layer around stem to expose tender inner core (if stem breaks off, that's okay; just save it and cook it alongside the hearts). Using a spoon, scrape out the inedible, hairy choke in the center of each heart. Transfer cleaned artichokes to bowl of lemon water as you work, covering them with a clean kitchen towel to keep them completely submerged.", "In a small bowl, stir together parsley, mint, oregano, and garlic. Rub concave side of each artichoke heart with herb mixture, packing it into any leafy crevices. Set aside remaining herb mixture.", "Add olive oil and wine to a pot just large enough to hold all the artichokes closely side by side, so that they can sit flat with their stem sides up. Arrange artichokes in pot and season with salt and pepper.", "Bring pot to a simmer over medium-high heat, then lower heat to a bare simmer, cover, and cook until artichokes are fork-tender, 20 to 30 minutes. (Smaller artichokes may not take as long.)", "Remove from heat and transfer artichokes to a platter, stem sides up. Drizzle with cooking juices, along with some fresh olive oil and a light sprinkling of reserved herb mixture. Serve warm or at room temperature."]
+  },  
   {
     "recipe_id": "004",
     "dish": "Grilled Oysters Recipe",
