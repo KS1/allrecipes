@@ -3,8 +3,7 @@ const { User } = require('../models');
 const { Recipe } = require('../models');
 
 const userData = require('./userData.json');
-
-//const recipeData = require('./recipeData.json');
+const recipeData = require('./recipeData.json');
 
 const userRecipeData = require('./userRecipeData.json');
 

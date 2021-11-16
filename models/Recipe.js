@@ -10,9 +10,7 @@ class Recipe extends Model {
 
 Recipe.init(
   {
-
     recipe_id: {
-
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -23,15 +21,26 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-
-
-    description: {
-      type: DataTypes.STRING,
+    dishPic: {
+      type: DataTypes.BLOB,
+      allowNull: true,
+      primaryKey: true,
+      unique: true
     },
- 
-    cook_time: {
+    chef: {
       type: DataTypes.STRING,
-
+      allowNull: false,
+    },
+    prepTime: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }, 
+    nutrition_facts: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    dishDesc: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
 
@@ -44,32 +53,10 @@ Recipe.init(
     directions: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
-
-    },
-    nutrition_facts: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    dishPic: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    user_id:{
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'user_id',
-      },
     }
 
-    // image_id: {
-    //     type: DataTypes.INTEGER,
-    //     references: {
-    //       model: 'gallery',
-    //       key: 'id',
-    //     },
-    //   },
   },
+  
   {
     // hooks: {
     //   beforeCreate: async (newUserData) => {

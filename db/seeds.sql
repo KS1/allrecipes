@@ -71,7 +71,7 @@ Remove from heat and transfer artichokes to a platter, stem sides up. Drizzle wi
 "J. Kenji López-Alt", 
 "Cook: 30 min", 
 "", 
-"Iam an East Coast oyster fiend, but I can't abide West Coast oysters served raw. So, when a buddy of mine recently gave me a whole case of gorgeous Kusshi oysters from British Columbia for helping him out with an oyster-shucking job, I immediately knew there was only one way I was going to be enjoying these deep-cupped beauties: on the grill.
+"I am an East Coast oyster fiend, but I can't abide West Coast oysters served raw. So, when a buddy of mine recently gave me a whole case of gorgeous Kusshi oysters from British Columbia for helping him out with an oyster-shucking job, I immediately knew there was only one way I was going to be enjoying these deep-cupped beauties: on the grill.
 Topping them with compound butter is a simple, classic way to prepare them.", 
 "1 dozen oysters
 4 to 5 ounces compound butter, such as garlic-parsley butter, kimchi butter, or Parmesan-basil butter
@@ -591,7 +591,7 @@ Hot cooked rice",
 "In a Dutch oven, heat oil over medium-high heat. Add onion; cook and stir until tender, 4-5 minutes. Add garlic and shrimp; cook 1 minute longer. Stir in seasonings. Add beer and lemon juice; bring to a boil. Reduce heat. Simmer, uncovered, until shrimp turn pink, 10-15 minutes. Stir in ketchup and parsley; discard bay leaf. Serve with rice."),
 
 (029, "Rabanadas (Portuguese French Toast)", 
-"Ana Paula Cioffi", 
+"", 
 "Prep: 15 min. Cook: 5 min./batch", 
 "2 slices: 391 calories, 21g fat (3g saturated fat), 131mg cholesterol, 313mg sodium, 42g carbohydrate (23g sugars, 2g fiber), 11g protein.", 
 "'I find this dish a comforting reminder of my childhood. The creamy custard center contrasts deliciously with the cinnamon sugar crust.'", 
