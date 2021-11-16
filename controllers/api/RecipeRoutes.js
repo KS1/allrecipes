@@ -24,7 +24,7 @@ router.post('/add-recipe/', async (req, res) => {
       ingredients: req.body.ingredients,
       directions: req.body.directions,
       nutrition_facts: req.body.nutrition_facts,
-      filename: req.body.filename
+      dishPic: req.body.dishPic
     });
     res.status(200).json(dishData);
   } catch (err) {
@@ -64,7 +64,7 @@ router.put('/account-recipe/:id', async (req, res) => {
         ingredients: req.body.ingredients,
         directions: req.body.directions,
         nutrition_facts: req.body.nutrition_facts,
-        filename: req.body.filename
+        dishPic: req.body.dishPic
       },
       {
         where: {
@@ -72,7 +72,7 @@ router.put('/account-recipe/:id', async (req, res) => {
         },
       }
     );
-    // If the database is updated successfully, what happens to the updated data below?
+
     // The updated data (dish) is then sent back to handler that dispatched the fetch request.
     res.status(200).json(recipe);
   } catch (err) {

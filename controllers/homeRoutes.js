@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ['filename', 'description'],
+          attributes: ['recipe_id', 'description'],
         },
       ],
     });
@@ -92,7 +92,7 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: Painting,
-          attributes: ['filename', 'description'],
+          attributes: ['dishPic', 'description'],
         },
       ],
     });

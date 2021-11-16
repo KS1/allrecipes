@@ -46,7 +46,7 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    filename: {
+    dishPic: {
       type: DataTypes.STRING,
       allowNull: false,
     },
