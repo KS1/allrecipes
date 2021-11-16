@@ -23,13 +23,7 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
-// Recipe area??
-router.get('/:id', (req, res) => {
-  //get recipe by its id
-  res.render("recipe", {
-    directions: ["A", "B", "C", "S"]
-  })
-})
+
 
 // route to get all recipes
 router.get('/', async (req, res) => {
@@ -47,8 +41,8 @@ router.get('/', async (req, res) => {
       recipe.get({ plain: true })
     );
 
-    res.render('homepage', {
-      galleries,
+    res.render('/', {
+      recipes,
     });
   } catch (err) {
     console.log(err);
@@ -57,7 +51,7 @@ router.get('/', async (req, res) => {
 });
 
 // route to get one recipe
-router.get('/recipe/:id', async (req, res) => {
+router.get('/:id', async (req, res) => {
   try{ 
       const recipeData = await Recipe.findByPk(req.params.id);
       if(!recipeData) {
@@ -85,45 +79,5 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-// GET all galleries for homepage
-router.get('/', async (req, res) => {
-  try {
-    const dbGalleryData = await Gallery.findAll({
-      include: [
-        {
-          model: Painting,
-
-          attributes: ['dishPic', 'description'],
-
-        },
-      ],
-    });
-
-    const galleries = dbGalleryData.map((gallery) =>
-      gallery.get({ plain: true })
-    );
-
-    res.render('homepage', {
-      galleries,
-    });
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
-});
-
-// GET one painting
-router.get('/painting/:id', async (req, res) => {
-  try {
-    const dbPaintingData = await Painting.findByPk(req.params.id);
-
-    const painting = dbPaintingData.get({ plain: true });
-
-    res.render('painting', { painting });
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
-});
 
 module.exports = router;
