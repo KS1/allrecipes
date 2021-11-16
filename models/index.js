@@ -1,7 +1,7 @@
 
 const User = require('./User');
 const Recipe = require('./Recipe');
-// const Painting = require('./Painting');
+
 
 // ???
 User.hasMany(Recipe, {

@@ -15,6 +15,11 @@ router.get('/', async (req, res) => {
   res.render('all', { recipes });
 });
 
+// get one recipe
+router.get('/recipe/:num', async (req, res) => {
+  return res.render('recipe', recipes[req.params.num - 1]);
+});
+
 
 // route to create/add a recipe
 router.post('/userRecipe/', async (req, res) => {
