@@ -22,7 +22,7 @@ Recipe.init(
       allowNull: false
     },
     dishPic: {
-      type: DataTypes.BLOB,
+      type: DataTypes.STRING,
       allowNull: true,
       primaryKey: true,
       unique: true
@@ -41,19 +41,35 @@ Recipe.init(
     },
     dishDesc: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+      validate: {
+
+        len: [8,2000]
+
+      },
     },
 
     ingredients: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.STRING,
       allowNull: false,
-      unique: true
+      unique: true,
+      validate: {
+
+        len: [8,2000]
+
+      },
+
     },
 
     directions: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.STRING,
       allowNull: false,
-      unique: true
+      unique: true,
+      validate: {
+
+        len: [8,2000]
+
+      },
     }
 
   },

@@ -7,7 +7,12 @@ const recipeData = require('./recipeData.json');
 
 // const userRecipeData = require('./userRecipeData.json');
 
-
+const stringified = recipeData.map(recipe => {
+recipe.ingredients = JSON.stringify(recipe.ingredients);
+recipe.directions = JSON.stringify(recipe.directions);
+return recipe;
+});
+console.log(stringified)
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -18,7 +23,7 @@ const seedDatabase = async () => {
   });
 
 
-  await Recipe.bulkCreate(recipeData, {
+  await Recipe.bulkCreate(stringified, {
     individualHooks: true,
     returning: true,
   });
