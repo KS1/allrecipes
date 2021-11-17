@@ -135,7 +135,7 @@
   {
     "recipe_id": "006",
     "dish": "Colcannon Potatoes",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Colcannon-Potatoes_EXPS_SDFM18_29291_D10_03_1b-2.jpg?resize=768,768",
     "chef": "Marilou Robinson",
     "prepTime": "Prep: 25 min. Cook: 35 min.",
     "nutrition_facts": "1 cup: 168 calories, 5g fat (3g saturated fat), 14mg cholesterol, 361mg sodium, 27g carbohydrate (6g sugars, 4g fiber), 4g protein. Diabetic Exchanges: 2 starch, 1 fat.",
@@ -160,7 +160,7 @@
   {
     "recipe_id": "007",
     "dish": "Irish Spiced Beef",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps191496_TH163619C09_30_3b.jpg?resize=768,768",
     "chef": "Mary Shenk",
     "prepTime": "Prep: 20 min. + chilling Bake: 4 hours + chilling",
     "nutrition_facts": "4 ounces cooked beef (calculated without bread, cheese and mustard): 268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
@@ -193,7 +193,7 @@
   {
     "recipe_id": "008",
     "dish": "Scottish Oatmeal Rolls",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps34095_THCA163696D08_28_5b-6.jpg?resize=768,768",
     "chef": "Peggy Goodrich",
     "prepTime": "Prep: 30 min. + rising Bake: 20 min.",
     "nutrition_facts": "1 roll: 89 calories, 1g fat (0 saturated fat), 0 cholesterol, 149mg sodium, 17g carbohydrate (3g sugars, 1g fiber), 2g protein. Diabetic Exchanges: 1 starch.",
@@ -219,7 +219,7 @@
   {
     "recipe_id": "009",
     "dish": "Almond Tea Bread",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Almond-Tea-Bread_exps7880_THCA2916394D04_19_3b_RMS-2.jpg?resize=768,768",
     "chef": "Kathleen Showers",
     "prepTime": "Prep: 15 min. Bake: 1-1/4 hours + cooling",
     "nutrition_facts": "1 slice: 130 calories, 4g fat (1g saturated fat), 25mg cholesterol, 111mg sodium, 21g carbohydrate (10g sugars, 1g fiber), 3g protein.",
@@ -245,7 +245,7 @@
   {
     "recipe_id": "010",
     "dish": "English Rhubarb Crumble",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/EXPS_CMBZ17_8435_C11_30_3b.jpg?resize=768,768",
     "chef": "Amy Freeman",
     "prepTime": "Prep: 45 min. Bake: 30 min.",
     "nutrition_facts": "1 each: 550 calories, 33g fat (19g saturated fat), 202mg cholesterol, 179mg sodium, 60g carbohydrate (37g sugars, 2g fiber), 6g protein.",
@@ -272,7 +272,7 @@
   {
     "recipe_id": "011",
     "dish": "Crispy Fish & Chip",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Crispy-Fish-Chips_exps58536_TH143193C04_10_4bC_RMS-6.jpg?resize=768,768",
     "chef": "Linda Schend",
     "prepTime": "Prep/Total Time: 30 min.",
     "nutrition_facts": "1 fillet with 3/4 cup fries: 416 calories, 19g fat (4g saturated fat), 86mg cholesterol, 698mg sodium, 26g carbohydrate (2g sugars, 2g fiber), 32g protein. Diabetic Exchanges: 5 lean meat, 1-1/2 starch.",
@@ -297,7 +297,7 @@
   {
     "recipe_id": "012",
     "dish": "German Potato Dumplings",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/German-Potato-Dumplings_exps39380_TH143193C04_22_4b_RMS-4.jpg?resize=768,768",
     "chef": "Arline Hofland",
     "prepTime": "Prep: 40 min. Cook: 10 min",
     "nutrition_facts": "2 dumplings with 2 tablespoons sauce: 367 calories, 14g fat (8g saturated fat), 100mg cholesterol, 524mg sodium, 51g carbohydrate (2g sugars, 5g fiber), 9g protein.",
@@ -325,7 +325,7 @@
   {
     "recipe_id": "013",
     "dish": "Oma’s Apfelkuchen (Grandma’s Apple Cake)",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Oma-s-Apfelkuchen-Grandma-s-Apple-Cake-_EXPS_BW20_201499_E08_13_10b-2.jpg?resize=768,768",
     "chef": "Amy Kirchen",
     "prepTime": "Prep: 20 min. Bake: 45 min. + cooling",
     "nutrition_facts": "1 slice: 422 calories, 23g fat (14g saturated fat), 148mg cholesterol, 177mg sodium, 50g carbohydrate (28g sugars, 1g fiber), 4g protein.",
@@ -352,7 +352,7 @@
   {
     "recipe_id": "014",
     "dish": "Aebleskiver",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2020/10/Peachy-Danish-Pancake-Balls-Aebleskiver-_EXPS_RC20_252220_E08_26_7b.jpg?resize=768,768",
     "chef": "Kristine Chayes",
     "prepTime": "Prep: 20 min. Cook: 5 min./batch",
     "nutrition_facts": "4 pieces: 160 calories, 2g fat (1g saturated fat), 64mg cholesterol, 530mg sodium, 27g carbohydrate (5g sugars, 1g fiber), 7g protein. Diabetic Exchanges: 2 starch.",
@@ -376,7 +376,7 @@
   {
     "recipe_id": "015",
     "dish": "Italian Pasta Sauce",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Italian-Pasta-Sauce_EXPS_THN18_14845_B05_31_3b-1.jpg?resize=768,768",
     "chef": "Judy Braun",
     "prepTime": "Prep: 25 min. Cook: 2-1/2 hours",
     "nutrition_facts": "1 cup: 284 calories, 15g fat (5g saturated fat), 57mg cholesterol, 821mg sodium, 16g carbohydrate (9g sugars, 3g fiber), 23g protein.",
@@ -408,7 +408,7 @@
   {
     "recipe_id": "016",
     "dish": "Hazelnut Macarons",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Hazelnut-Macarons_EXPS_HCA18_136963_B02_22_4b-6.jpg?resize=768,768",
     "chef": "Taste of Home Test Kitchen",
     "prepTime": "Prep: 50 min. Bake: 10 min./batch + cooling",
     "nutrition_facts": "1 sandwich cookie: 117 calories, 8g fat (3g saturated fat), 31mg cholesterol, 67mg sodium, 12g carbohydrate (11g sugars, 0 fiber), 1g protein.",
@@ -441,7 +441,7 @@
   {
     "recipe_id": "017",
     "dish": "Cassoulet for Today",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cassoulet-for-Today_EXPS_SDFM17_48033_D10_04_4b-2.jpg?resize=768,768",
     "chef": "Virginia Anthony",
     "prepTime": "Prep: 45 min. Bake: 50 min.",
     "nutrition_facts": "1 serving: 394 calories, 14g fat (4g saturated fat), 91mg cholesterol, 736mg sodium, 29g carbohydrate (4g sugars, 8g fiber), 33g protein. Diabetic Exchanges: 4 lean meat, 2 starch, 1/2 fat.",
@@ -476,7 +476,7 @@
   {
     "recipe_id": "018",
     "dish": "Finnish Salmon and Dill Pie",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2020/09/Finnish-Cheese-Pie_EXPS_RC20MZ_251843_B08_26_3b.jpg?resize=768,768",
     "chef": "Judy Batson",
     "prepTime": "Prep: 20 min. Bake: 30 min. + standing",
     "nutrition_facts": "1 piece: 448 calories, 30g fat (18g saturated fat), 179mg cholesterol, 642mg sodium, 26g carbohydrate (2g sugars, 1g fiber), 16g protein.",
@@ -504,7 +504,7 @@
   {
     "recipe_id": "019",
     "dish": "Lemon & Dill Shrimp Sandwiches",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps72240_SD153321B01_29_2b.jpg?resize=768,768",
     "chef": "Monica Kolva",
     "prepTime": "Prep/Total Time: 20 min.",
     "nutrition_facts": "1 sandwich (calculated without lettuce and tomato): 534 calories, 31g fat (6g saturated fat), 156mg cholesterol, 992mg sodium, 36g carbohydrate (5g sugars, 1g fiber), 27g protein.",
@@ -528,7 +528,7 @@
   {
     "recipe_id": "020",
     "dish": "Crispy Norwegian Bows",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Crispy-Norwegian-Bows_EXPS_UCSBZ17_16044_B05_26_1b.jpg?resize=768,768",
     "chef": "Janie Norwood",
     "prepTime": "Prep/Total Time: 30 min.",
     "nutrition_facts": "1 cookie: 24 calories, 1g fat (0 saturated fat), 13mg cholesterol, 1mg sodium, 3g carbohydrate (1g sugars, 0 fiber), 0 protein.",
@@ -551,7 +551,7 @@
   {
     "recipe_id": "021",
     "dish": "Classic Swedish Meatballs",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Classic-Swedish-Meatballs_EXPS_THD16_3351_07B_27_2b.jpg?resize=768,768",
     "chef": "Emily Gould",
     "prepTime": "Prep: 15 min. + chilling Cook: 20 min.",
     "nutrition_facts": "1 meatball: 36 calories, 2g fat (1g saturated fat), 10mg cholesterol, 87mg sodium, 2g carbohydrate (1g sugars, 0 fiber), 3g protein.",
@@ -582,7 +582,7 @@
   {
     "recipe_id": "022",
     "dish": "Swedish Cream Apple Rings",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Swedish-Cream-Apple-Rings_EXPS_FBMZ18_149506_C05_11_4b-2.jpg?resize=768,768",
     "chef": "Heather Hood",
     "prepTime": "Prep: 20 min. + chilling Bake: 25 min. + cooling",
     "nutrition_facts": "1 piece: 290 calories, 12g fat (8g saturated fat), 61mg cholesterol, 123mg sodium, 41g carbohydrate (21g sugars, 1g fiber), 4g protein.",
@@ -616,7 +616,7 @@
   {
     "recipe_id": "023",
     "dish": "Dutch Letters",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Dutch-Letters_exps33826_TH2236622A08_05_2b_RMS-2.jpg?resize=768,768",
     "chef": "Shirley De Lange",
     "prepTime": "Prep: 50 min. Bake: 30 min. + cooling",
     "nutrition_facts": "1 pastry: 248 calories, 16g fat (9g saturated fat), 42mg cholesterol, 182mg sodium, 25g carbohydrate (10g sugars, 1g fiber), 3g protein.",
@@ -645,7 +645,7 @@
   {
     "recipe_id": "024",
     "dish": "Dutch Baby Pancake with Strawberry-Almond Compote",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Dutch-Baby-Pancake-with-Strawberry-Almond-Compote_exps141004_TH2847293C12_18_2bC_RMS-2.jpg?resize=768,768",
     "chef": "Jennifer Beckman",
     "prepTime": "Prep: 15 min. Bake: 20 min.",
     "nutrition_facts": "1 slice with 1/2 cup topping: 252 calories, 13g fat (4g saturated fat), 153mg cholesterol, 245mg sodium, 27g carbohydrate (13g sugars, 3g fiber), 9g protein. Diabetic Exchanges: 1-1/2 fat, 1 starch, 1 medium-fat meat, 1 fruit.",
@@ -674,7 +674,7 @@
   {
     "recipe_id": "025",
     "dish": "True Belgian Waffles",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/True-Belgian-Waffles_EXPS_GHBZ18_4869_C08_09_2b-12.jpg?resize=768,768",
     "chef": "Rose Delemeester",
     "prepTime": "Prep/Total Time: 30 min.",
     "nutrition_facts": "2 each: 696 calories, 41g fat (25g saturated fat), 193mg cholesterol, 712mg sodium, 72g carbohydrate (34g sugars, 1g fiber), 10g protein.",
@@ -697,7 +697,7 @@
   {
     "recipe_id": "026",
     "dish": "Steamed Mussels with Peppers",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Steamed-Mussels-with-Peppers_exps40274_TOHCSC2423109A07_19_2bC_RMS-6.jpg?resize=768,768",
     "chef": "Taste of Home Test Kitchen",
     "prepTime": "Prep: 30 min. Cook: 10 min.",
     "nutrition_facts": "12 each: 293 calories, 12g fat (2g saturated fat), 65mg cholesterol, 931mg sodium, 12g carbohydrate (1g sugars, 1g fiber), 28g protein.",
@@ -726,7 +726,7 @@
   {
     "recipe_id": "027",
     "dish": "Slow-Cooked Spicy Portuguese Cacoila",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Slow-Cooked-Spicy-Portuguese-Cacoila_EXPS_SCMBZ19_133144_B01_24_7b-3.jpg?resize=768,768",
     "chef": "Michele Merlino",
     "prepTime": "Prep: 20 min. + marinating Cook: 6 hours",
     "nutrition_facts": "1 sandwich: 489 calories, 20g fat (7g saturated fat), 90mg cholesterol, 1075mg sodium, 38g carbohydrate (6g sugars, 2g fiber), 34g protein.",
@@ -753,7 +753,7 @@
   {
     "recipe_id": "028",
     "dish": "Shrimp Mozambique",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2020/10/Shrimp-Mozambique_EXPS_RC20_253795_E08_26_2b.jpg?resize=768,768",
     "chef": "Christina Souz",
     "prepTime": "Prep: 20 min. Cook: 20 min.",
     "nutrition_facts": "1 serving: 223 calories, 9g fat (1g saturated fat), 184mg cholesterol, 1190mg sodium, 9g carbohydrate (4g sugars, 1g fiber), 25g protein.",
@@ -782,7 +782,7 @@
   {
     "recipe_id": "029",
     "dish": "Rabanadas (Portuguese French Toast)",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Rabanadas-Portuguese-French-Toast-_exps117794_THRAA2874593C01_31_5bC_RMS-4.jpg?resize=768,768",
     "chef": "Ana Paula Cioffi",
     "prepTime": "Prep: 15 min. Cook: 5 min./batch",
     "nutrition_facts": "2 slices: 391 calories, 21g fat (3g saturated fat), 131mg cholesterol, 313mg sodium, 42g carbohydrate (23g sugars, 2g fiber), 11g protein.",
@@ -804,7 +804,7 @@
   {
     "recipe_id": "030",
     "dish": "Chicken Paella",
-    "dishPic": "",
+    "dishPic": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Paella_EXPS_CF2BZ20_29684_E12_04_5b-2.jpg?resize=768,768",
     "chef": "Taste of Home Test Kitchen",
     "prepTime": "Prep: 10 min. Cook: 45 min.",
     "nutrition_facts": "1-1/2 cups: 516 calories, 17g fat (4g saturated fat), 99mg cholesterol, 1242mg sodium, 52g carbohydrate (5g sugars, 4g fiber), 36g protein.",
