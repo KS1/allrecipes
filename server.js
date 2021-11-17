@@ -7,6 +7,26 @@ const helpers = require('./utils/helpers');
 
 const sequelize = require('./config/connection');
 
+//        multer example:
+
+// const multer = require('multer');
+// const storage = multer.diskStorage({
+//   destination: (req, file, cb) => {
+//     console.log(file);
+//     cb(null, Date.now() + path.extname(file.originalname))
+//   },
+// });
+
+// const upload = multer({storage: storage});
+
+// app.get("/upload", (req, res) =>{
+//   res.render("Uploaded");
+// });
+
+// app.post("/upload", upload.single("image"), (req, res) =>{
+//   res.send("Image Uploaded")
+// });
+
 // Create a new sequelize store using the express-session package
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
