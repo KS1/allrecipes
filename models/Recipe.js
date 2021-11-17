@@ -14,12 +14,12 @@ Recipe.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
 
     dish: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     dishPic: {
       type: DataTypes.STRING,
@@ -29,15 +29,15 @@ Recipe.init(
     },
     chef: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     prepTime: {
       type: DataTypes.STRING,
-      allowNull: false,
-    }, 
+      allowNull: false
+    },
     nutrition_facts: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     dishDesc: {
       type: DataTypes.STRING,
@@ -60,6 +60,7 @@ Recipe.init(
       },
 
     },
+
     directions: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -72,7 +73,6 @@ Recipe.init(
     }
 
   },
-  
   {
     // hooks: {
     //   beforeCreate: async (newUserData) => {
@@ -84,7 +84,7 @@ Recipe.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'recipe',
+    modelName: 'recipe'
   }
 );
 

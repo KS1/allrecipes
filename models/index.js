@@ -1,11 +1,11 @@
 
 const User = require('./User');
 const Recipe = require('./Recipe');
-// const Painting = require('./Painting');
+
 
 // ???
 User.hasMany(Recipe, {
-  foreignKey:'user_id',
+  foreignKey:'recipe_id',
   onDelete:'CASCADE'
 });
 
