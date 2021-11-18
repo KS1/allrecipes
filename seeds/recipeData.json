@@ -1,55 +1,60 @@
 [
-    {
-
-
-      "recipe_id:": "001",
-      "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
-      "description": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
-      "chef": "Daniel Gritzer",
-      "prepTime": "45min",
-      "ingredients": ["1/2 batch Old-Fashioned Flaky Pie Dough", "1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling", "1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick", "Kosher salt", "1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved", "1 teaspoon minced fresh thyme leaves", "1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons"],
-      "directions": ["step1", "step2", "step3", "step4", "C" ],
-      "filename":"grilled-oysters.webp",
-      "nutrition_facts":"good for you"
-
-      
+  {
+    "user_id": 1,
+    "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
+    "dishPic": "/images/savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom.webp",
+    "chef": "Daniel Gritzer",
+    "prepTime": "30 mins",
+    "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
+    "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+    "directions": " Roll one portion into a 14-inch round."
     },
     {
-        "recipe_id": "002",
-        "dish": "Sal2",
-        "ingredients": ["pork", "egg"],
-        "directions": ["step1", "step2", "step3", "step4"],
-        "nutrition_facts":"good for you"
-      },
-      {
-
-
-        "recipe_id": "003",
-        "dish": "Sal3",
-        "ingredients": ["pork", "egg"],
-        "directions": ["step1", "step2", "step3", "step4"],
-        "nutrition_facts":"good for you"
-      },
-      {
-
-
-        "recipe_id": "004",
-        "dish": "Sal4",
-        "ingredients": ["pork", "egg"],
-        "directions": ["step1", "step2", "step3", "step4"],
-        "nutrition_facts":"good for you"
-
-      },
-      {
-
-        "recipe_id": "005",
-        "dish": "Sal5",
-        "ingredients": ["pork", "egg"],
-        "directions": ["step1", "step2", "step3", "step4"],
-        "nutrition_facts":"good for you"
-
-
-      }
-     
+    "user_id": 2,
+    "dish": "Lemony Broiled Potatoes With Halloumi Cheese",
+    "dishPic": "/images/broiling-potato-haloumi.webp",
+    "chef": "Michael Harlan Turkell",
+    "prepTime": "30 mins",
+    "nutrition_facts": "89 calories, 1g fat (0 saturated fat), 0 cholesterol, 149mg sodium, 17g carbohydrate (3g sugars, 1g fiber), 2g protein. Diabetic Exchanges: 1 starch.",
+    "dishDesc": "Browned on top, creamy on bottom, and bright with lemon, these broiled potatoes topped off with melty",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+    "directions": " Roll one portion into a 14-inch round."
+  },
+  {
+    "user_id": 3,
+    "dish": "Carciofi alla Romana: The Other Delicious Roman Artichoke Dish",
+    "dishPic": "/images/artichokes-ala-romana.webp",
+    "chef": "Daniel Gritzer",
+    "prepTime": "30 mins",
+    "nutrition_facts": " 130 calories, 4g fat (1g saturated fat), 25mg cholesterol, 111mg sodium, 21g carbohydrate (10g sugars, 1g fiber), 3g protein.",
+    "dishDesc": "There are many reasons not to cook artichokes out of season, the least obvious of which is",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+    "directions": " Roll one portion into a 14-inch round."
+  },  
+  {
+    "user_id": 4,
+    "dish": "Grilled Oysters Recipe",
+    "dishPic": "/images/grilled-oysters.webp",
+    "chef": "J. Kenji López-Alt",
+    "prepTime": "30 mins",
+    "nutrition_facts": "550 calories, 33g fat (19g saturated fat), 202mg cholesterol, 179mg sodium, 60g carbohydrate (37g sugars, 2g fiber), 6g protein.",
+    "dishDesc": "I am an East Coast oyster fiend, but I can't abide West Coast oysters served raw. So, when a buddy of mine recently gave me a whole case of gorgeous Kusshi oysters from British Columbia for helping him out.",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+    "directions": " Roll one portion into a 14-inch round."
     
-  ]
+  },
+  {
+    "user_id": 5,
+    "dish": "Charred Asparagus With Miso Béarnaise Sauce Recipe",
+    "dishPic": "/images/asparagus-miso-bearnaise.webp",
+    "chef": "Sasha Marx",
+    "prepTime": "40 mins",
+    "nutrition_facts": "416 calories, 19g fat (4g saturated fat), 86mg cholesterol, 698mg sodium, 26g carbohydrate (2g sugars, 2g fiber), 32g protein. Diabetic Exchanges: 5 lean meat, 1-1/2 starch.",
+    "dishDesc": "For an easy steak dinner side dish, char asparagus in the time it takes",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+    "directions": " Roll one portion into a 14-inch round."
+  
+  }
+
+]

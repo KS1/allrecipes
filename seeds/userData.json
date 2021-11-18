@@ -1,42 +1,30 @@
 [
   {
 
-
-    "user_id": "1",
-    "name": "Sal",
+    "name": "Daniel Gritzer",
     "email": "sal@hotmail.com",
     "password": "password12345"
   },
   {
 
-
-    "user_id": "2",
-
-    "name": "Lernantino",
+    "name": "Michael Harlan Turkell",
     "email": "lernantino@gmail.com",
     "password": "password12345"
   },
   {
-
-
-    "user_id": "3",
-    "name": "Amiko",
+    "name": "Daniel Gritzer",
     "email": "amiko2k20@aol.com",
     "password": "password12345"
   },
   {
 
-
-    "user_id": "4",
-    "name": "Jordan",
+    "name": "J. Kenji López-Alt",
     "email": "jordan99@msn.com",
     "password": "password12345"
   },
   {
 
-
-    "user_id": "5",
-    "name": "Blake",
+    "name": "Sasha Marx",
     "email": "the_blake@yahoo.com",
     "password": "password12345"
   }

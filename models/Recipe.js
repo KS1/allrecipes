@@ -10,78 +10,72 @@ class Recipe extends Model {
 
 Recipe.init(
   {
-
-    recipe_id: {
-
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
 
     dish: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
 
-
-    description: {
+    dishPic: {
       type: DataTypes.STRING,
+      allowNull: true,
+      primaryKey: true
     },
- 
-    cook_time: {
-      type: DataTypes.STRING,
 
-      allowNull: false,
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+
+    chef: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    prepTime: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+
+    nutrition_facts: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    dishDesc: {
+      type: DataTypes.STRING,
+      allowNull: false
+
+      
     },
 
     ingredients: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
-      allowNull: false,
-      unique: true,
-
+      type: DataTypes.STRING,
+      allowNull: false
     },
+
     directions: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
-      allowNull: false,
-
-    },
-    nutrition_facts: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-    dishPic: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    user_id:{
+    user_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
-        key: 'user_id',
+        key: 'id'
       },
-    }
-
-    // image_id: {
-    //     type: DataTypes.INTEGER,
-    //     references: {
-    //       model: 'gallery',
-    //       key: 'id',
-    //     },
-    //   },
+    },
   },
   {
-    // hooks: {
-    //   beforeCreate: async (newUserData) => {
-    //     newUserData.password = await bcrypt.hash(newUserData.password, 10);
-    //     return newUserData;
-    //   },
-    //   },
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'recipe',
+    modelName: 'recipe'
   }
 );
 

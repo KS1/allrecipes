@@ -38,6 +38,7 @@ main {
   width: 100%;
   z-index: 22;
   top: 0px;
+  left: 0px;
 }
 
 .navbar-light .navbar-brand {
