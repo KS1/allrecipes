@@ -6,7 +6,6 @@ const withAuth = require('../utils/auth');
 
 
 
-
 // route to get all recipes
 router.get('/', async (req, res) => {
   try {
@@ -19,7 +18,7 @@ router.get('/', async (req, res) => {
       ],
     });
 
-    const recipes = recipeData.map((recipe) =>
+    const recipes = recipeData.map((recipe) => 
       recipe.get({ plain: true })
     );
     console.log(recipes);
@@ -49,7 +48,7 @@ router.get('/:id', async (req, res) => {
 
 
 // Use withAuth middleware to prevent access to route
-router.get('/addRecipe', withAuth, async (req, res) => {
+router.get('/api/addRecipe', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
@@ -59,7 +58,7 @@ router.get('/addRecipe', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
-    res.render('addRecipe', {
+    res.render('add-recipe', {
       ...user,
       logged_in: true
     });
@@ -72,7 +71,7 @@ router.get('/addRecipe', withAuth, async (req, res) => {
 router.get('/login', (req, res) => {
   // If a session exists, redirect the request to the homepage
   if (req.session.logged_in) {
-    res.redirect('/api/userRecipe');
+    res.redirect('/');
     return;
   }
 

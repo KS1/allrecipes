@@ -3,8 +3,8 @@ const Recipe = require('../../models/Recipe');
 
 
 
-// get one recipe
-router.get('/recipe/:id', async (req, res) => {
+// get one recipe by its id
+router.get('recipe/:id', async (req, res) => {
   return res.render('recipe', recipes[req.params.num - 1]);
 });
 

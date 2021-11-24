@@ -1,27 +1,26 @@
 <!-- User sign up page -->
 
-<div class="container-fluid form-top signup-from">
+<div class="container-fluid form-top">
 
   <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-    <input type="text" class="form-control" id="user-name" placeholder="Lili Collins">
-
-    <form class="form login-form">
+    <form class="form signup-form">
+      <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="name-signup" placeholder="Lili Collins">
       <div class="form-group">
         <label for="email-login" class="col-form-label">Email</label>
-        <input class="form-control" type="text" id="email-login" placeholder="name@example.com">
+        <input class="form-control" type="text" id="email-signup" placeholder="name@example.com">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
       <div class="form-group">
         <label for="password-login" class="col-form-label">Password</label>
-        <input class="form-control" type="password" id="password-login" placeholder="Password">
+        <input class="form-control" type="password" id="password-signup" placeholder="Password">
         <div class="col-auto">
           <span id="passwordHelpInline" class="form-text">
             Must be 8-20 characters long.
           </span>
         </div>
         <label for="password-login" class="col-form-label">Re-enter Password</label>
-        <input class="form-control" type="password" id="password-login" placeholder="Password">
+        <input class="form-control" type="password" id="password-signup2" placeholder="Password">
         <div class="col-auto">
           <span id="passwordHelpInline" class="form-text">
             Must be the same as pervious one.
@@ -31,6 +30,9 @@
 
       <button type="submit" class="btn btn-orange mt-3" id="signup-btn">Submit</button>
     </form>
+
+
+
   </div>
-  
+
   <script src="/js/signup.js"></script>

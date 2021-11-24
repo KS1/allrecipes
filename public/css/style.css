@@ -200,24 +200,8 @@ h5 {
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 992px) {
-  .carousel-item .btn {
-    top: 85%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .carousel-item .btn {
-    top: 85%;
-    font-size: 0.9em;
-  }
-}
-
 @media screen and (max-width: 576px) {
-  .carousel-item .btn {
-    top: 85%;
-    font-size: 0.8em;
-  }
+
   .navbar .navbar-brand {
     font-size: 1.4em;
   }
@@ -226,7 +210,7 @@ h5 {
   .nav-link {
     font-size: 1.3em;
   }
-  .lead,
+
   .list-group-item,
   p {
     font-size: 1em;
@@ -237,10 +221,7 @@ h5 {
 }
 
 @media screen and (max-width: 478px) {
-  .carousel-item .btn {
-    top: 80%;
-    font-size: 0.7em;
-  }
+
   .navbar .navbar-brand {
     font-size: 1.2em;
   }
@@ -249,14 +230,11 @@ h5 {
   .nav-link {
     font-size: 1.2em;
   }
-  .lead,
   .list-group-item,
   p {
     font-size: 1em;
   }
-  .blockquote {
-    font-size: 0.9em;
-  }
+
   h5 {
     font-size: 0.9em;
   }
@@ -331,3 +309,6 @@ td{
 }
 
 /* account with no recipe page */
+h4 {
+  text-align: center;
+}

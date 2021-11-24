@@ -58,7 +58,19 @@ Recipe.init(
       allowNull: false
     },
 
-    directions: {
+    directions1: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    directions2: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    directions3: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    directions4: {
       type: DataTypes.STRING,
       allowNull: false
     },
