@@ -8,7 +8,10 @@
     "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
     "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus",
     "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
-    "directions": " Roll one portion into a 14-inch round."
+    "directions1": " Roll one portion into a 14-inch round.",
+    "directions2": " Roll one portion into a 14-inch round.",
+    "directions3": " Roll one portion into a 14-inch round.",
+    "directions4": " Roll one portion into a 14-inch round."
     },
   {
     "user_id": 2,
@@ -19,7 +22,10 @@
     "nutrition_facts": "89 calories, 1g fat (0 saturated fat), 0 cholesterol, 149mg sodium, 17g carbohydrate (3g sugars, 1g fiber), 2g protein. Diabetic Exchanges: 1 starch.",
     "dishDesc": "Browned on top, creamy on bottom, and bright with lemon, these broiled potatoes topped off with melty",
     "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
-    "directions": " Roll one portion into a 14-inch round."
+    "directions1": " Roll one portion into a 14-inch round.",
+    "directions2": " Roll one portion into a 14-inch round.",
+    "directions3": " Roll one portion into a 14-inch round.",
+    "directions4": " Roll one portion into a 14-inch round."
   },
   {
     "user_id": 3,
@@ -30,7 +36,10 @@
     "nutrition_facts": " 130 calories, 4g fat (1g saturated fat), 25mg cholesterol, 111mg sodium, 21g carbohydrate (10g sugars, 1g fiber), 3g protein.",
     "dishDesc": "There are many reasons not to cook artichokes out of season, the least obvious of which is",
     "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
-    "directions": " Roll one portion into a 14-inch round."
+    "directions1": " Roll one portion into a 14-inch round.",
+    "directions2": " Roll one portion into a 14-inch round.",
+    "directions3": " Roll one portion into a 14-inch round.",
+    "directions4": " Roll one portion into a 14-inch round."
   },  
   {
     "user_id": 4,
@@ -41,7 +50,10 @@
     "nutrition_facts": "550 calories, 33g fat (19g saturated fat), 202mg cholesterol, 179mg sodium, 60g carbohydrate (37g sugars, 2g fiber), 6g protein.",
     "dishDesc": "I am an East Coast oyster fiend, but I can't abide West Coast oysters served raw. So, when a buddy of mine recently gave me a whole case of gorgeous Kusshi oysters from British Columbia for helping him out.",
     "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
-    "directions": " Roll one portion into a 14-inch round."
+    "directions1": " Roll one portion into a 14-inch round.",
+    "directions2": " Roll one portion into a 14-inch round.",
+    "directions3": " Roll one portion into a 14-inch round.",
+    "directions4": " Roll one portion into a 14-inch round."
     
   },
   {
@@ -53,7 +65,11 @@
     "nutrition_facts": "416 calories, 19g fat (4g saturated fat), 86mg cholesterol, 698mg sodium, 26g carbohydrate (2g sugars, 2g fiber), 32g protein. Diabetic Exchanges: 5 lean meat, 1-1/2 starch.",
     "dishDesc": "For an easy steak dinner side dish, char asparagus in the time it takes",
     "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
-    "directions": " Roll one portion into a 14-inch round."
+    "directions1": " Roll one portion into a 14-inch round.",
+    "directions2": " Roll one portion into a 14-inch round.",
+    "directions3": " Roll one portion into a 14-inch round.",
+    "directions4": " Roll one portion into a 14-inch round."
+
   
   }
 
