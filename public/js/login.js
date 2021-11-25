@@ -7,9 +7,16 @@ const loginFormHandler = async (event) => {
   const email = document.querySelector('#email-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
 
+
   if (email && password) {
     // Send the e-mail and password to the server
-    const response = await fetch('/', {
+    // const response = await fetch('/', {
+    //   method: 'POST',
+    //   body: JSON.stringify({ email, password }),
+    //   headers: { 'Content-Type': 'application/json' },
+    // });
+
+    const response = await fetch('/api/users/login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
       headers: { 'Content-Type': 'application/json' },
@@ -17,12 +24,12 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
         // If successful, redirect the browser to the account page
-      document.location.replace('/userRecipe');
+      document.location.replace('/account-recipe');
     } else {
       alert('Failed to log in');
     }
   }
-};s
+};
 
 
 
