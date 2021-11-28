@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef Recipes</title>
     <link rel="webtag icon"
-        href="images/9721038191595501126-256.png"
-        alt="chef icon">
+    href="images copy/9721038191595501126-32.png"
+    alt="chef icon">
     <!-- fontawesome css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -28,24 +28,26 @@
   <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <img src="images//9721038191595501126-32.png" alt="chef icon"><a class="navbar-brand" href="#">Chef Recipes</a>
+        <img src="images copy/9721038191595501126-32.png" alt="chef icon"><a class="navbar-brand" href="#">Chef Recipes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span><div class="icons8-menu"></div></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" >Login</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" id="login">Log In</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#recipes">Recipes</a>
+            <a class="nav-link" href="#">Recipes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="add-recipe.html"><i class="fa fa-plus" style="color:orange;"></i></a>
+          <li>
+            <a class="nav-link" href="add-recipe.html"><div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltiptext">Add Your Recipe!</span>
+            </div></a>
           </li>
+         
         </ul>
       </div>
     </div>
@@ -53,9 +55,9 @@
   
   
   
-  <main>
+  <main class="container container-fluid mt-main">
     <!--Top cards -->
-    <div class="container" id="recipes">
+    <div class="container-fluid" id="recipes">
         <div class="row top-cards">
           <div class="col-lg-6 col-sm-12 top-cards">
             <div class="card mb-3">
@@ -130,26 +132,24 @@
 
   
   
-    <!-- footer -->
-    <footer class="bd-footer py-5">
-      <div class="container py-5">
-        <div class="row" id="contact">
-          <div class="col-12">
-            <img class="chef" src="images//9721038191595501126-32.png" alt="chef icon"><a href="#"><h2 class="fs-5">Chef Recipes</h2></a>
-            <ul class="list-unstyled small text-muted">
-              <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:20px" class="fa list-item">&#xf0e0;</i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a></li>
-              <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
-              <li class="mb-2">Designed and built by Chef Recipes Team.</li>
-              <li class="mb-2">© 2021 Chef Recipes Team. All Rights Reserved.</li>
-              <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
-             
-            </ul>
-          </div>
-
-         
-    </footer>
+<!-- footer -->
+<footer class="bd-footer py-5 mt-5">
+  <div class="container py-5">
+    <div class="row" id="contact">
+      <div class="col-12">
+        <img class="chef" src="images copy/9721038191595501126-32.png" alt="chef icon"><a href="#"><h2 class="fs-5">Chef Recipes</h2></a>
+        <ul class="list-unstyled small text-muted">
+          <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:20px" class="fa list-item">&#xf0e0;</i></a></li>
+          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
+          <li class="list-inline-item"><a href="#" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes" target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:24px"></i></a></li>
+          <li class="mb-2">Designed and built by Chef Recipes Team.</li>
+          <li class="mb-2">© 2021 Chef Recipes Team. All Rights Reserved.</li>
+          <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
+    
+        </ul>
+      </div>
+</footer>
 
 
     <!-- login Modal components-->
@@ -157,7 +157,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -179,8 +179,8 @@
               </form>
             </div>
             <div class="modal-footer form-group">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign Up</button>
-              <button type="submit" class="btn btn-orange">Sign In</button>
+              <a href="signup.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign Up</button></a>
+              <button type="submit" class="btn btn-orange">Log In</button>
               <div class="form-group">
 
               </div>
@@ -190,7 +190,7 @@
       </div>
    
     <!-- login js -->
-    <script src="/js/login.js"></script>
+    <script src="./public/js/login.js"></script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <!-- bootstrap js -->

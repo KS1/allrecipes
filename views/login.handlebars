@@ -1,20 +1,55 @@
 
-<h2>Login</h2>
+<!-- User log in page -->
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="form login-form">
+          <div class="modal-body">
 
-<form class="form login-form">
-  <div class="form-group">
-    <label for="email-login">email:</label>
-    <input class="form-input" type="text" id="email-login" />
+            <div class="form-group mb-3">
+              <label for="email-login" class="col-form-label">Email</label>
+              <input class="form-control" type="text" id="email-login" placeholder="name@example.com">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="password-login" class="col-form-label">Password</label>
+              <input class="form-control" type="password" id="password-login" placeholder="Password">
+              <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                  Must be 8-20 characters long.
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer form-group">
+            <a href="/signup"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
+                Up</button></a>
+            {{#if has_recipe}}
+            <a href="/account-without-recipe"><button type="submit" class="btn btn-orange" id="login">Log
+                In</button></a>
+            {{else}}
+            <a href="/account-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            {{/if}}
+          </div>
+
+        </form>
+      </div>
+    </div>
   </div>
-  <div class="form-group">
-    <label for="password-login">password:</label>
-    <input class="form-input" type="password" id="password-login" />
-  </div>
-  <div class="form-group">
-    <button class="btn btn-primary" type="submit">login</button>
-  </div>
-</form>
+</div>
+{{#if logged_in}}
+  <script src="/js/logout.js"></script>
+{{/if}}
 
 
 <script src="/js/login.js"></script>
+
+
+

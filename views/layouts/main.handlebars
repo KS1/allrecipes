@@ -3,40 +3,165 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Registry</title>
-  <link rel="stylesheet" href="/css/jass.css">
+  <title>Chef Recipes</title>
+  <link rel="webtag icon" href="images/9721038191595501126-256.png" alt="chef icon">
+  <!-- fontawesome css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <!-- Bootcstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
-    <h1>
-      User Registry
-    </h1>
-    <!-- Only display the logout button if the user is logged in -->
-    {{#if logged_in}}
-    <nav>
-      <button class="btn" id="logout">logout</button>
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img src="images//9721038191595501126-32.png" alt="chef icon"><a class="navbar-brand" href="#">Chef Recipes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span>
+            <div class="icons8-menu"></div>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              {{#if logged_in}}
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" id="logout">Log Out</a>
+              {{else}}
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</a>
+              {{/if}}
+            </li>
+            <li class="nav-item">
+              {{#if logged_in}}
+              <a class="nav-link" href="/account-recipe"> {{user.name}}'s Recipes</a>
+              {{else}}
+              <a class="nav-link" href="/account-recipe"> Your Recipes</a>
+              {{/if}}
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li>
+              {{#if logged_in}}
+              <a class="nav-link" href="/addRecipe">
+                <div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltiptext">Add Your
+                    Recipe!</span>
+                </div>
+              </a>
+              {{/if}}
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
     </nav>
-    {{/if}}
+
 
   </header>
-  <main class="container container-fluid mt-5">
+  <main class="container container-fluid mt-main">
     {{{ body }}}
   </main>
 
-  <footer>
-      
+  <!-- footer -->
+  <footer class="bd-footer py-5 mt-5">
+    <div class="container py-5">
+      <div class="row" id="contact">
+        <div class="col-12">
+          <img class="chef" src="/images/9721038191595501126-32.png" alt="chef icon"><a href="#">
+            <h2 class="fs-5">Chef Recipes</h2>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="list-inline-item"><a href="mailto: millie_tsai@me.com" target="_blank"><i style="font-size:20px"
+                  class="fa list-item">&#xf0e0;</i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook list-item"
+                  aria-hidden="true" style="font-size:24px"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i style="font-size:24px"
+                  class="fa">&#xf099;</i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/explore/search/keyword/?q=food%20recipes"
+                target="_blank"><i class="fa fa-instagram list-item" aria-hidden="true" style="font-size:24px"></i></a>
+            </li>
+            <li class="mb-2">Designed and built by Chef Recipes Team.</li>
+            <li class="mb-2">© 2021 Chef Recipes Team. All Rights Reserved.</li>
+            <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
+
+          </ul>
+        </div>
   </footer>
 
 
-  <!-- Only include the logout script if the user is logged in -->
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- login Modal components-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="form login-form">
+          <div class="modal-body">
+
+            <div class="form-group mb-3">
+              <label for="email-login" class="col-form-label">Email</label>
+              <input class="form-control" type="text" id="email-login" placeholder="name@example.com">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="password-login" class="col-form-label">Password</label>
+              <input class="form-control" type="password" id="password-login" placeholder="Password">
+              <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                  Must be 8-20 characters long.
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer form-group">
+            <a href="/signup"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
+                Up</button></a>
+            {{#if has_recipe}}
+            <a href="/account-recipe"><button type="submit" class="btn btn-orange" id="login">Log
+                In</button></a>
+            {{else}}
+            <a href="/account-without-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            {{/if}}
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
-
 </body>
 
-</html>
+<script src="/js/login.js"></script>
 
+</html>
