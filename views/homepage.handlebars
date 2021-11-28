@@ -1,75 +1,75 @@
 <!--Top cards -->
-    <div class="container-fluid" id="recipes">
-        <div class="row top-cards">
-          {{#each recipes as |recipe|}}
-          <div class="col-lg-6 col-sm-12 top-cards">
-            <div class="card mb-3">
-              <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
-              <div class="card-body">
-                <h5 class="card-title">{{recipe.dish}}</h5>
-                <p class="card-text">{{recipe.dishDesc}}</p>
-                <span class="bywho">By {{user.name}}</span>
-                <br>
-                <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-lg-6 col-sm-12 top-cards">
-            <div class="card mb-3">
-              <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
-              <div class="card-body">
-                <h5 class="card-title">{{recipe.dish}}</h5>
-                <p class="card-text">{{recipe.dishDesc}}</p>
-                <span class="bywho">By {{user.name}}</span>
-                <br>
-                <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-              </div>
-            </div>
-            
-          </div>
-          <div class="row">
-          <div class="col-lg-4 col-sm-12 small-cards">
-            <div class="card">
-                <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{recipe.dish}}</h5>
-                    <p class="card-text">{{recipe.dishDesc}}</p>
-                    <span class="bywho">By {{user.name}}</span>
-                  <br>
-                  <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 small-cards">
-            <div class="card">
-                <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{recipe.dish}}</h5>
-                    <p class="card-text">{{recipe.dishDesc}}</p>
-                    <span class="bywho">By {{user.name}}</span>
-                  <br>
-                  <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 small-cards">
-            <div class="card">
-                <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{recipe.dish}}</h5>
-                    <p class="card-text">{{recipe.dishDesc}}</p>
-                    <span class="bywho">By {{user.name}}</span>
-                  <br>
-                  <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          
-          {{/each}}
+<div class="container-fluid" id="recipes">
+  <div class="row top-cards">
+    {{#each recipes as |recipe|}}
+    <div class="col-lg-6 col-sm-12 top-cards">
+      <div class="card mb-3">
+        <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
+        <div class="card-body">
+          <h5 class="card-title">{{recipe.dish}}</h5>
+          <p class="card-text">{{recipe.dishDesc}}</p>
+          <span class="bywho">By {{user.name}}</span>
+          <br>
+          <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
         </div>
       </div>
 
-        <script src="/js/recipe-btn.js"></script>
+    </div>
+    <div class="col-lg-6 col-sm-12 top-cards">
+      <div class="card mb-3">
+        <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
+        <div class="card-body">
+          <h5 class="card-title">{{recipe.dish}}</h5>
+          <p class="card-text">{{recipe.dishDesc}}</p>
+          <span class="bywho">By {{user.name}}</span>
+          <br>
+          <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 small-cards">
+        <div class="card">
+          <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
+          <div class="card-body">
+            <h5 class="card-title">{{recipe.dish}}</h5>
+            <p class="card-text">{{recipe.dishDesc}}</p>
+            <span class="bywho">By {{user.name}}</span>
+            <br>
+            <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 small-cards">
+        <div class="card">
+          <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
+          <div class="card-body">
+            <h5 class="card-title">{{recipe.dish}}</h5>
+            <p class="card-text">{{recipe.dishDesc}}</p>
+            <span class="bywho">By {{user.name}}</span>
+            <br>
+            <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 small-cards">
+        <div class="card">
+          <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
+          <div class="card-body">
+            <h5 class="card-title">{{recipe.dish}}</h5>
+            <p class="card-text">{{recipe.dishDesc}}</p>
+            <span class="bywho">By {{user.name}}</span>
+            <br>
+            <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    {{/each}}
+  </div>
+</div>
+
+<script src="/js/recipe-btn.js"></script>

@@ -7,14 +7,14 @@ const signupFormHandler = async (event) => {
     const password2 = document.querySelector('#password-signup2').value.trim();
   
     if (name && email && password && password2) {
-      const response = await fetch('/api/users/signup', {
+      const response = await fetch('/api/users', {
         method: 'POST',
         body: JSON.stringify({ name, email, password, password2}),
         headers: { 'Content-Type': 'application/json' },
       });
       
       if (response.ok) {
-        document.location.replace('/account-without-recipe');
+        document.location.replace('/account');
       } else {
         alert(response.statusText);
       }

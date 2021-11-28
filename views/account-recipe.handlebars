@@ -1,10 +1,11 @@
 <!-- Account Recipe Cards -->
+{{#if recipes.length}}
     <div class="container-fluid" id="recipes">
         <div class="row account-cards">
          {{#each recipes as |recipe|}}
             <div class="col-lg-4 col-sm-12 small-cards">
               <div class="card">
-                  <img src="{{recipe.dishPic}}" class="card-img-top" alt="...">
+                  <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dishPic}}">
                   <div class="card-body">
                     <h5 class="card-title">{{recipe.dish}}</h5>
                     <p class="card-text">{{recipe.dishDesc}}</p>
@@ -20,3 +21,10 @@
           {{/each}}
         </div>
     </div>
+    {{else}}
+        <!-- Account Recipe Cards -->
+    <div class="container-fluid empty-text">
+        <p class="text-center">Welocme! {{user.name}}It's empty now. Start to create your recipe today!</p>
+        <div class="text-center"><img src="https://media4.giphy.com/media/h2HTvVuKVS4daQaVuS/giphy.gif" width="50%" alt="cooking"></div>
+    </div>
+    {{/if}}
