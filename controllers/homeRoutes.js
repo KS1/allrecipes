@@ -76,6 +76,10 @@ router.get('/addRecipe', withAuth, async (req, res) => {
 
 
 router.get('/signup', (req, res) => {
+  if (req.session.signed_in) {
+    res.redirect('/account-without-recipe');
+    return;
+  }
   res.render('signup');
 });
 
@@ -83,9 +87,9 @@ router.get('/signup', (req, res) => {
 router.get('/account-recipe', async(req, res) => {
   try{
     if (req.session.logged_in) {
-      const recipeData = await Recipe.findAll(req.session.user_id);
+      const recipeData = await Recipe.findByPk(req.session.user_id);
       if(!recipeData) {
-          res.status(404).json({message: 'No recipes created.'});
+          res.status(404).json({message: 'You have not created any recipes yet.'});
           return;
       }
       const recipes = new Array(recipeData.get({ plain: true }));
