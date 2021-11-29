@@ -133,7 +133,7 @@ Back End
 
 ## Future Improvement / Development
 
-- Make basic functions work first, like login, logout, signup, add, and delete recipes.
+- Add delete recipes feature
 - Add edit recipe and sharing feature
 - Add a rating feature
 
