@@ -15,7 +15,7 @@ async function newFormHandler(event) {
   const dishPic = src = "/image/Mashed-Potatoes-Recipe.jpg"
   const nutrition_facts = document.querySelector('#nutrition-facts').value.trim();
   // Send fetch request to add a new recipe
-  const response = await fetch(`/api/addRecipe`, {
+  const response = await fetch(`/api/add-recipe`, {
     method: 'POST',
     body: JSON.stringify({
       chefName,

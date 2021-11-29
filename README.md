@@ -47,21 +47,32 @@ AS A user I WANT to see my recipes showed on the homepage of recipe website SO T
 GIVEN a homepage presented with several cards
 WHEN I click one of cards' recipe button
 THEN I am able to enter that card's recipe
-THEN it shows a recipe page
+THEN it shows a recipe page with dish name, dish description, preparation & cooking time, ingredients, directions with 4 steps, and then nutrition facts
 
-GIVEN a login button on the navbar and I don't have an account
+GIVEN a navbar presented login, your recipe, and contact buttons
+WHEN I click the login button 
+THEN it pops up a login form
+WHEN I click your recipe button and I have not logged in
+THEN it pops up an alert "Please log in to add your recipe" 
+WHEN I logged in
+THEN it shows the recipes I created
+WHEN I click the contact button 
+THEN it brings me to the contact information
+
+GIVEN I don't have an account
 WHEN I click it
 THEN it pops up a login form with login and sign-up button
 THEN I click the sign-up button
 THEN it shows me the sign-up page
 WHEN I complete the form and click submit
-THEN it shows me the account page and the login button on the navbar shows log out button  
+THEN it shows me the account page and the login button on the navbar changes to log out
+THEN your recipe button on navbar changes to my name's recipe  
 WHEN I click log out
 THEN I log out
 
 GIVEN I have an account
 WHEN I click log in button on the navbar
-THEN it shows me the account page
+THEN it shows me the account page and the your recipe change to my name's recipe
 
 GIVEN an add button on the navbar and I haven't logged in
 WHEN I click the add button

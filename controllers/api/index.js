@@ -8,8 +8,8 @@ const addRecipeRoutes = require ('./addReceipRoutes');
 
 router.use('/users', userRoutes);
 router.use('/recipe', recipeRoutes);
-router.use('/userRecipe', userRecipeRoutes);
-router.use('/addRecipe', addRecipeRoutes);
+router.use('/user-recipe', userRecipeRoutes);
+router.use('/add-recipe', addRecipeRoutes);
 
 
 
