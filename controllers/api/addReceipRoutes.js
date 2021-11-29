@@ -23,7 +23,9 @@ const withAuth = require('../../utils/auth');
 // route to create/add a recipe  who is the chef? user.id-> user.name?
 router.post('/',  withAuth, async (req, res) => {
     try {
+      console.log(req.body, "text")
       const recipeData = await Recipe.create({
+        chef: req.body.chefName,
         dish: req.body.dish,
         dishDesc: req.body.dishDesc,
         prepTime: req.body.prepTime,
@@ -33,7 +35,7 @@ router.post('/',  withAuth, async (req, res) => {
         directions3: req.body.directions3,
         directions4: req.body.directions4,
         nutrition_facts: req.body.nutrition_facts,
-        user_id: req.body.parseInt(idName),
+        user_id: parseInt(req.body.idName),
         dishPic: "/images/broiling-potato-haloumi.webp"
       });
           // console.log(recipeData, 'the data')
