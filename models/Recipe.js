@@ -14,48 +14,83 @@ Recipe.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
+
     dish: {
-      type: DataTypes.STRING,
-      allowNull: false,
+      type: DataTypes.TEXT,
+      allowNull: true
     },
-    ingredients: {
-      type: DataTypes.ARRAY,
-      allowNull: false,
-      unique: true,
-      
-    },
-    directions: {
-      type: DataTypes.ARRAY,
-      allowNull: false,
+
+    dishPic: {
+      type: DataTypes.TEXT,
+      allowNull: true,
 
     },
-    nutrition_facts:{
-      type: DataTypes.STRING,
-      allowNull: false,
-    }
-    // image_id: {
-    //     type: DataTypes.INTEGER,
-    //     references: {
-    //       model: 'gallery',
-    //       key: 'id',
-    //     },
-    //   },
+
+    filename: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+
+    chef: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    prepTime: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+
+    nutrition_facts: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    dishDesc: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+
+    ingredients: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+
+    directions1: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    directions2: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    directions3: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    directions4: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id'
+      },
+    },
   },
   {
-    // hooks: {
-    //   beforeCreate: async (newUserData) => {
-    //     newUserData.password = await bcrypt.hash(newUserData.password, 10);
-    //     return newUserData;
-    //   },
-    //   },
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'recipe',
+    modelName: 'recipe'
   }
 );
+
+
+
+
 
 module.exports = Recipe;
