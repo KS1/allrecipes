@@ -5,7 +5,7 @@ const { User } = require('../../models');
 // sign up 
 router.post('/', async (req, res) => {
   try {
-    console.log(req.body)
+    console.log(req.body, 'kadens body');
     if (req.body.password !== req.body.password2 ) {
       return res.status(400).json({message: "Passward is not the same"})
     }
@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
-
+      req.session.username =userData.name;
       res.status(200).json(userData);
     });
   } catch (err) {
