@@ -47,19 +47,23 @@
               {{/if}}
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Recipes</a>
+              {{#if logged_in}}
+              <a class="nav-link" href="/account-recipe"> {{user.name}}'s Recipes</a>
+              {{else}}
+              <a class="nav-link" href="/account-recipe"> Your Recipes</a>
+              {{/if}}
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li>
-            {{!-- {{#if logged_in}} --}}
+              {{#if logged_in}}
               <a class="nav-link" href="/addRecipe">
                 <div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltiptext">Add Your
                     Recipe!</span>
                 </div>
               </a>
-            {{!-- {{/if}} --}}
+              {{/if}}
             </li>
 
           </ul>
@@ -142,10 +146,10 @@
             <a href="/signup"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
                 Up</button></a>
             {{#if has_recipe}}
-            <a href="/account-without-recipe"><button type="submit" class="btn btn-orange" id="login">Log
+            <a href="/account-recipe"><button type="submit" class="btn btn-orange" id="login">Log
                 In</button></a>
             {{else}}
-            <a href="/account-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            <a href="/account-without-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
             {{/if}}
           </div>
 
@@ -158,5 +162,6 @@
   {{/if}}
 </body>
 
-  <script src="/js/login.js"></script>
+<script src="/js/login.js"></script>
+
 </html>

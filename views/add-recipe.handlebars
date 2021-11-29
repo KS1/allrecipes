@@ -1,61 +1,69 @@
 <!-- add recipe page -->
 <div class="container-fluid form-top new-recipe-form">
   <form>
-      <div class="mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Dish Name</label>
-        <input type="text" class="form-control" id="dish-name" placeholder="Carbonara">
-      </div>
-      <div class="mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Description</label>
-        <textarea type="text" class="form-control" id="dish-desc" placeholder="Easy, simple and delicious dish which can be done in 25 mins"></textarea>
-      </div>
-      <div class="mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Preparation & Cook Time</label>
-        <input type="text" class="form-control" id="prep-time" placeholder="25 mins">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Ingredients</label>
-        <textarea class="form-control" id="ingredients" rows="3" placeholder="1 (16 ounce)package spaghetti, 12 slices thick-cut, applewood-smoked bacon, 2 tablespoons olive oil,1 onion, 2 large cloves garlic"></textarea>
-      </div>
-     
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Directions</label><br>
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 1</label>
-        <textarea type="text" class="form-control mb-3" id="directions1" placeholder="Step 1"></textarea>
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 2</label>
-        <textarea type="text" class="form-control mb-3" id="directions2" placeholder="Step 2"></textarea>
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 3</label>
-        <textarea  type="text" class="form-control mb-3" id="directions3" placeholder="Step 3"></textarea>
-        <label for="exampleFormControlTextarea1" class="form-label step">Step 4</label>
-        <textarea  type="text" class="form-control mb-3" id="directions4" placeholder="Step 4"></textarea>
-      </div>
-      <div class="mb-3">
-        <label for="formFile" class="form-label">Add an Image</label>
-        <input class="form-control" type="file" id="formFile">
+    <div class="mb-3 " style="display:none">
+      <label for="exampleFormControlInput1" class="form-label">Chef Name</label>
+      <input type="text" class="form-control" id="chef-name" value={{ username }}>
+    </div>
+    <div class="mb-3 " style="display:none">
+      <label for="exampleFormControlInput1" class="form-label">Id</label>
+      <input type="text" class="form-control" id="id-name" value={{ id }}>
+    </div>
+    <div class="mb-3 ">
+      <label for="exampleFormControlInput1" class="form-label">Dish Name</label>
+      <input type="text" class="form-control" id="dish-name" placeholder="Carbonara">
+    </div>
+    <div class="mb-3 ">
+      <label for="exampleFormControlInput1" class="form-label">Description</label>
+      <textarea type="text" class="form-control" id="dish-desc"
+        placeholder="Easy, simple and delicious dish which can be done in 25 mins"></textarea>
+    </div>
+    <div class="mb-3 ">
+      <label for="exampleFormControlInput1" class="form-label">Preparation & Cook Time</label>
+      <input type="text" class="form-control" id="prep-time" placeholder="25 mins">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Ingredients</label>
+      <textarea class="form-control" id="ingredients" rows="3"
+        placeholder="1 (16 ounce)package spaghetti, 12 slices thick-cut, applewood-smoked bacon, 2 tablespoons olive oil,1 onion, 2 large cloves garlic"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Directions</label><br>
+      <label for="exampleFormControlTextarea1" class="form-label step">Step 1</label>
+      <textarea type="text" class="form-control mb-3" id="directions1" placeholder="Step 1"></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label step">Step 2</label>
+      <textarea type="text" class="form-control mb-3" id="directions2" placeholder="Step 2"></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label step">Step 3</label>
+      <textarea type="text" class="form-control mb-3" id="directions3" placeholder="Step 3"></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label step">Step 4</label>
+      <textarea type="text" class="form-control mb-3" id="directions4" placeholder="Step 4"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="formFile" class="form-label">Add an Image</label>
+      <input class="form-control" type="file" id="formFile">
 
 
-        {{!--            multer example:
-        
-        <form method="POST" action= "/upload" enctype="multipart/form-data">
+      {{!-- multer example:
+
+      <form method="POST" action="/upload" enctype="multipart/form-data">
         <input type="file" name="image">
-        <input type="submit"> 
-        </form> --}}
-      </div>
+        <input type="submit">
+      </form> --}}
+    </div>
 
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Nutrition Facts</label>
-        <textarea class="form-control" id="nutrition-facts" rows="3" placeholder="512 calories; protein 21.2g; carbohydrates 47.5g; fat 25.2g; cholesterol 127.5mg; sodium 431.2mg."></textarea>
-      </div>
-      <button type="submit" class="btn btn-orange" id="save-btn">Save Recipe</button>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Nutrition Facts</label>
+      <textarea class="form-control" id="nutrition-facts" rows="3"
+        placeholder="512 calories; protein 21.2g; carbohydrates 47.5g; fat 25.2g; cholesterol 127.5mg; sodium 431.2mg."></textarea>
+    </div>
+    <button type="submit" class="btn btn-orange" id="save-btn">Save Recipe</button>
 
   </form>
-    
+
 
 </div>
-    <script src="/js/add-recipe.js"></script>
-     <!-- bootstrap js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-  
-   
+<script src="/js/add-recipe.js"></script>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
