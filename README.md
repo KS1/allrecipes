@@ -40,6 +40,8 @@ AS A user I WANT to sign up SO THAT I can add recipes and save them on the recip
 
 AS A user I WANT to login the recipe website SO THAT I can add recipes and save them on the recipe website
 
+AS A user I WANT to see my name on the navbar after I log in
+
 AS A user I WANT to see a recipe form with dish name, short description, prep and cooking time, ingredients, directions, and nutrition facts colums SO THAT I can add a recipe
 
 AS A user I WANT to save my recipe on the recipe website SO THAT I can go back to check my recipes whenever I want
