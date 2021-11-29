@@ -1,10 +1,25 @@
 const router = require('express').Router();
 const { User } = require('../models');
-const Recipe =require ('../models/Recipe');
+const Recipe = require('../models/Recipe');
 const withAuth = require('../utils/auth');
 
 
+// router.post('/signup', async (req, res) => {
+//   try {
+//     console.log(req, 'signup in homeRoutes.js')
+//     const userDate = await User.create ({
+//       name: req.body.name,
+//       email: req.body.email,
+//       password: req.body.password
+//     })
 
+//     res.render('account-recipe', {logged_in:true, username: req.body.name})
+
+//   } catch (err) {
+//     console.log(err);
+//     res.status(500).json(err);
+//   }
+// })
 
 // route to get all recipes
 router.get('/', async (req, res) => {
@@ -18,7 +33,7 @@ router.get('/', async (req, res) => {
       ],
     });
 
-    const recipes = recipeData.map((recipe) => 
+    const recipes = recipeData.map((recipe) =>
       recipe.get({ plain: true })
     );
     if (req.session.logged_in) {
@@ -40,17 +55,17 @@ router.get('/', async (req, res) => {
 
 // route to get one recipe
 router.get('/recipe/:id', async (req, res) => {
-  try{ 
-      const recipeData = await Recipe.findByPk(req.params.id);
-      if(!recipeData) {
-          res.status(404).json({message: 'No recipe with this id!'});
-          return;
-      }
-      const recipe = recipeData.get({ plain: true });
-      res.render('recipe', recipe);
-    } catch (err) {
-        res.status(500).json(err);
-    };     
+  try {
+    const recipeData = await Recipe.findByPk(req.params.id);
+    if (!recipeData) {
+      res.status(404).json({ message: 'No recipe with this id!' });
+      return;
+    }
+    const recipe = recipeData.get({ plain: true });
+    res.render('recipe', recipe);
+  } catch (err) {
+    res.status(500).json(err);
+  };
 });
 
 
@@ -78,8 +93,8 @@ router.get('/add-recipe', withAuth, async (req, res) => {
 
 
 router.get('/signup', (req, res) => {
-  if (req.session.signed_in) {
-    res.redirect('/account-without-recipe');
+  if (req.session.signed_up) {
+    res.redirect('/account-recipe');
     return;
   }
   res.render('signup');
@@ -100,11 +115,16 @@ router.get('/account-recipe', async (req, res) => {
           }
         ]
       })
-      if (!recipeData) {
-        res.status(404).json({ message: 'You have not created any recipes yet.' });
+      // console.log(recipeData.length, 'the lenght of the data')
+      if (recipeData.length === 0) {
+        console.log('there is no data, but here is the user name', req.session.username)
+        res.render('account-recipe', {
+          logged_in: true,
+          username: req.session.username
+        })
         return;
       }
-      console.log(recipeData, 'the data')
+      // console.log(recipeData, 'the data')
       const recipes = recipeData.map((recipe) =>
         recipe.get({ plain: true })
       );
