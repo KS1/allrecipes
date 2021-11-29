@@ -30,15 +30,26 @@ Do you always have some pain-points like this?
 ## User Story
 
 ```md
-AS A user I WANT to see some yummy recipes with a brief description SO THAT I can have an idea about what I can cook today
+AS A user I WANT to see some recipes cards with a dish name, a brief description and chef name SO THAT I can have an idea about what I can cook today
 
-As A user I WANT to see a recipe button on a recipe card SO THAT I can quickly click it to enter a whole recipe
+As A user I WANT to see a recipe button on a recipe card SO THAT I can click it to enter a recipe page
 
-AS A user I WANT to login recipe website SO THAT I can use some functions on the website
+As A user I WANT to see a recipe page with dish name, short description, prep and cooking time, ingredients, directions, and nutrition facts
+ 
+AS A user I WANT to sign up SO THAT I can add recipes and save them on the recipe website
 
-AS A user I WANT to add a recipe and save on the website SO THAT I can check my recipes whenever I want
+AS A user I WANT to login the recipe website SO THAT I can add recipes and save them on the recipe website
 
-AS A user I WANT to see my recipes showed on the homepage of recipe website SO THAT I can share my recipes with others
+AS A user I WANT to see a recipe form with dish name, short description, prep and cooking time, ingredients, directions, and nutrition facts colums SO THAT I can add a recipe
+
+AS A user I WANT to save my recipe on the recipe website SO THAT I can go back to check my recipes whenever I want
+
+AS A user I WANT to see my recipes showed on the homepage of the website SO THAT I can share my recipes with others
+
+AS A user I WANT to log out the recipe website SO THAT I can keep my account safe
+
+AS A user I WANT to know the recipe website's contact information SO THAT I can contact the recipe website
+
 ```
 
 ## Acceptance Criteria
