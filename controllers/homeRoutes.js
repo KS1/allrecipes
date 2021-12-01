@@ -36,15 +36,19 @@ router.get('/', async (req, res) => {
     const recipes = recipeData.map((recipe) =>
       recipe.get({ plain: true })
     );
+    const recipeLarge = recipes.splice(0,2)
+    const recipeSmall = recipes
+    console.log(recipeLarge)
+    console.log(recipeSmall)
     if (req.session.logged_in) {
       res.render('homepage', {
-        recipes,
+        recipeLarge, recipeSmall,
         logged_in: req.session.logged_in,
         username: req.session.username
       });
     } else {
       res.render('homepage', {
-        recipes
+        recipeLarge, recipeSmall
       });
     }
   } catch (err) {

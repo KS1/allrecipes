@@ -1,7 +1,7 @@
 <!-- a recipe page -->
 
 <div class="container-fluid img-center" id="recipes"> <div class="container-fluid img-center" id="recipes">
-      <img class="recipe-image" src="images/artichokes-ala-romana.webp" class="img-fluid" alt="{{recipe.dish}}">
+      <img class="recipe-image" src="{{recipe.dishPic}}" class="img-fluid" alt="{{recipe.dish}}">
       <div>
         <h3 class="text-orange">{{recipe.dish}}</h3>
         <p class="text-center mt-3">{{recipe.dishDesc}}</p>
@@ -20,15 +20,15 @@
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>{{recipe.direction1}}</td>
+              <td>{{recipe.directions1}}</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>{{{recipe.direction2}}</td>
+              <td>{{recipe.directions2}}</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>{{{recipe.direction3}}</td>
+              <td>{{recipe.directions3}}</td>
             </tr>
             <tr>
               <th scope="row">4</th>

@@ -13,7 +13,7 @@
                     <br />
                     <div class="hstack">
                         <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                        <div class="ms-auto"><i class="fa fa-trash-o" id="delete" type="submit" style="font-size:35px;"></i></div>
+                        <div class="ms-auto"><i class="fa fa-trash-o" data-id="{{recipe.id}}" type="submit" style="font-size:35px;"></i></div>
                     </div>
                 </div>
             </div>
@@ -31,3 +31,5 @@
             alt="cooking" /></div>
 </div>
 {{/if}}
+
+<script src="/js/delete-recipe.js"></script>
