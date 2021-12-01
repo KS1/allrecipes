@@ -36,7 +36,7 @@ router.post('/',  withAuth, async (req, res) => {
         directions4: req.body.directions4,
         nutrition_facts: req.body.nutrition_facts,
         user_id: parseInt(req.body.idName),
-        dishPic: "/images/broiling-potato-haloumi.webp"
+        dishPic: "/images/Classic-Shrimp-Scampi.jpeg"
       });
           // console.log(recipeData, 'the data')
       res.status(200).json(recipeData);

@@ -5,9 +5,9 @@
     "dishPic": "/images/savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom.webp",
     "chef": "Daniel Gritzer",
     "prepTime": "30 mins",
-    "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
-    "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus",
-    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, plus more for drizzling_1 pound (450g) mixed mushrooms",
+   "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
+    "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
+    "ingredients": "1/2 batch Old-Fashioned Flaky Pie Dough, 1/4 cup plus 1 tablespoon (75ml) extra-virgin olive oil, divided, plus more for drizzling , 1 pound (450g) mixed mushrooms, such as cremini, stemmed and caps sliced 1/4 inch thick, Kosher salt, 1 pound (450g) asparagus, woody ends trimmed, stalks cut on the bias 1/4 inch thick, tips reserved, 1 teaspoon minced fresh thyme leaves, 1 1/2 pounds leeks, white and light green parts only, halved lengthwise then cut crosswise into 1/4 inch thick half-moons, 2 ounces (55g) grated Fontina cheese , 1 large egg, beaten",
     "directions1": " Roll one portion into a 14-inch round.",
     "directions2": " Roll one portion into a 14-inch round.",
     "directions3": " Roll one portion into a 14-inch round.",
@@ -69,8 +69,19 @@
     "directions2": " Roll one portion into a 14-inch round.",
     "directions3": " Roll one portion into a 14-inch round.",
     "directions4": " Roll one portion into a 14-inch round."
-
-  
+  },  
+  {
+    "user_id": 6,
+    "dish": "Mashed Potatoes",
+    "dishPic": "/images/mashed-potatoes.webp",
+    "chef": "Millie Tsai",
+    "prepTime": "25 mins",
+    "nutrition_facts": "416 calories, 19g fat (4g saturated fat), 86mg cholesterol, 698mg sodium, 26g carbohydrate (2g sugars, 2g fiber), 32g protein. Diabetic Exchanges: 5 lean meat, 1-1/2 starch.",
+    "dishDesc": "Presenting my all-time favorite mashed potatoes recipe! These homemade mashed potatoes are perfectly rich and creamy, full of great flavor, easy to make, and always a crowd fave.",
+    "ingredients": "Potatoes, Garlic, Butter, Milk, Cream Cheese, Fine sea salt, Toppings (Optional)",
+    "directions1": "Use a blend of potatoes, and avoid waterlogging your potatoes.",
+    "directions2": "In general, you want to stir the liquids into your mashed potatoes until they are just combined. Otherwise if you overmix, they can crossover into gummy territory, which is no good.",
+    "directions3": "We will use fine sea salt to season the potatoes both (1) in the water while they are boiling and (2) afterwards, when adding in the butter, milk and cream cheese. As always when seasoning a recipe, taste-taste-taste along the way while you are preparing the recipe, and add more salt as needed.",
+    "directions4": "It’s a worthy utensil to have in your kitchen! I own and recommend this OXO masher, especially if you like slightly chunky mashed potatoes. Or this smooth OXO masher, if you prefer smoother mashed potatoes. (Both are Amazon affiliate links.)"
   }
-
 ]
